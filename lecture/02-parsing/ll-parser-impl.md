@@ -5,7 +5,7 @@
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/architektur_cb_parser.png"  /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/architektur_cb_parser_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/architektur_cb_parser.png"  /></picture></p>
 >
 > LL-Parser können über einen "rekursiven Abstieg" direkt aus einer
 > Grammatik implementiert werden:

@@ -6,7 +6,7 @@
 
 ### Syllabus
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/admin/images/architektur_cb.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/admin/images/architektur_cb_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/admin/images/architektur_cb.png" width="80%" /></picture></p>
 
 #### Kursbeschreibung
 
@@ -505,7 +505,7 @@ Sprachen**.
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/architektur_cb_lexer.png"  /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/architektur_cb_lexer_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/architektur_cb_lexer.png"  /></picture></p>
 >
 > Der Lexer (auch "Scanner") soll den Zeichenstrom in eine Folge von
 > Token zerlegen. Zur Spezifikation der Token werden reguläre Ausdrücke
@@ -639,7 +639,7 @@ sollte dann der Länge eines Disk-Blocks entsprechen.)
 Vergleiche auch [Wikipedia: "Circular
 Buffer"](https://en.wikipedia.org/wiki/Circular_buffer).
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/doublebuffer.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/doublebuffer_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/doublebuffer.png" width="65%" /></picture></p>
 
 ``` python
 start = 0; end = 0; fill(buffer[0:n])
@@ -973,7 +973,7 @@ Einordnung: Erweiterung der Automatenklasse DFA um einen Stack
 $P = (Q,\ \Sigma,\ \Gamma,\  \delta,\ q_0,\ \perp,\ F)$ ist ein Septupel
 aus
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Def_PDA.png" width="60%" /></p><p align="center">Definition eines PDAs</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Def_PDA_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Def_PDA.png" width="60%" /></picture></p><p align="center">Definition eines PDAs</p>
 
 Ein PDA ist per Definition nichtdeterministisch und kann spontane
 Zustandsübergänge durchführen.
@@ -996,7 +996,7 @@ muss es wieder gepusht werden.
 Ein PDA für
 $L=\lbrace ww^{R}\mid w\in \lbrace a,b\rbrace^{\ast}\rbrace$:
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/pda2.png" width="45%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/pda2_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/pda2.png" width="45%" /></picture></p>
 
 ###### Deterministische PDAs
 
@@ -1186,7 +1186,7 @@ Ableitungen vom Nonterminal *X* aufbaut:
 **Eingabe:** Ein Nichtterminal $X$ und das nächste zu verarbeitende
 Eingabezeichen $a$.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/recursive_descent.png" width="55%" /></p><p align="center">Recursive Descent-Algorithmus</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/recursive_descent_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/recursive_descent.png" width="55%" /></picture></p><p align="center">Recursive Descent-Algorithmus</p>
 
 ###### Wann scheitert das Verfahren?
 
@@ -1302,7 +1302,7 @@ Endezeichen
 
 **Ausgabe:** Eine Parsertabelle *P*
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parsertabelle.png" width="60%" /></p><p align="center">Algorithmus zur Generierung einer LL-Parsertabelle</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parsertabelle_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parsertabelle.png" width="60%" /></picture></p><p align="center">Algorithmus zur Generierung einer LL-Parsertabelle</p>
 
 Statt $First_1(\alpha)$ und $Follow_1(\alpha)$ wird oft nur
 $First(\alpha)$ und $Follow(\alpha)$ geschrieben.
@@ -1326,7 +1326,7 @@ $w\perp$ als initialem Kellerinhalt
 **Ausgabe:** Wenn $w \in L(G)$, eine Linksableitung von $w$, Fehler
 sonst
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parser.png" width="49%" /></p><p align="center">Algorithmus zum tabellengesteuerten LL-Parsen</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parser_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parser.png" width="49%" /></picture></p><p align="center">Algorithmus zum tabellengesteuerten LL-Parsen</p>
 
 ##### Wrap-Up
 
@@ -1376,7 +1376,7 @@ sonst
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/architektur_cb_parser.png"  /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/architektur_cb_parser_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/architektur_cb_parser.png"  /></picture></p>
 >
 > LL-Parser können über einen "rekursiven Abstieg" direkt aus einer
 > Grammatik implementiert werden:
@@ -1877,7 +1877,7 @@ Hier entsteht ein Tafelbild.
 
 ###### Da wollen wir hin
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Parser-Automat.png" width="80%" /></p><p align="center">Parser-Automat</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Parser-Automat_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Parser-Automat.png" width="80%" /></picture></p><p align="center">Parser-Automat</p>
 
 ##### Theorie: LR(0)
 
@@ -1989,11 +1989,11 @@ $X \in N \cup T, A \in N, \alpha, \beta \in (N \cup T)^{\ast}$.
 
 ###### Der LR(0)-Automat zu G1
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LR_0-SLR_1-Automat.png"  /></p><p align="center">LR(0)-Automat</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LR_0-SLR_1-Automat_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LR_0-SLR_1-Automat.png"  /></picture></p><p align="center">LR(0)-Automat</p>
 
 ###### Die LR(0)-Parsertabelle zu G1
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LR_0-Table.png" width="45%" /></p><p align="center">LR(0)-Parsertabelle</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LR_0-Table_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LR_0-Table.png" width="45%" /></picture></p><p align="center">LR(0)-Parsertabelle</p>
 
 ##### Und was gibt es noch?
 
@@ -2037,7 +2037,7 @@ Folgendes kann bei Mehrdeutigkeiten helfen:
 
 ###### Hierarchie der kontextfreien Sprachen
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/CFG-Hierarchy.png" width="60%" /></p><p align="center">Sprachenhierarchie</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/CFG-Hierarchy_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/CFG-Hierarchy.png" width="60%" /></picture></p><p align="center">Sprachenhierarchie</p>
 
 ##### Wrap-Up
 
@@ -2379,7 +2379,7 @@ float y;
 }
 ```
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/nested_envs.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/nested_envs_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/nested_envs.png"  /></picture></p>
 
 Das erinnert nicht nur zufällig an den Aufbau der Symboltabellen :-)
 
@@ -2568,7 +2568,7 @@ werden (`finally`-Block).
 > Zur Einordnung noch einmal die bisher betrachteten Phasen und die
 > jeweiligen Ergebnisse:
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb.png" width="60%" /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb.png" width="60%" /></picture></p>
 >
 > |  | Phase | Ergebnis |
 > |:--------|:----------------------|:---------------------------------------|
@@ -2615,7 +2615,7 @@ werden (`finally`-Block).
 
 ##### Überblick Interpreter
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/interpreter.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/interpreter_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/interpreter.png" width="50%" /></picture></p>
 
 Beim Interpreter durchläuft der Sourcecode nur das Frontend, also die
 Analyse. Es wird kein Code erzeugt, stattdessen führt der Interpreter
@@ -2753,7 +2753,7 @@ s    : expr         {List<EContext> x = $expr.ctx.e();} ;
 expr : e '*' e ;
 ```
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParserRuleContext.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParserRuleContext_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParserRuleContext.png"  /></picture></p>
 
 Jede Regel liefert ein passend zu dieser Regel generiertes
 Kontext-Objekt zurück. Darüber kann man das/die Kontextobjekt(e) der
@@ -2821,7 +2821,7 @@ ANTLR kann zu dieser Grammatik einen passenden Listener (Interface
 `calcListener`) generieren. Weiterhin generiert ANTLR eine leere
 Basisimplementierung (Klasse `calcBaseListener`):
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeListener.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeListener_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeListener.png"  /></picture></p>
 
 Von dieser Basisklasse leitet man einen eigenen Listener ab und
 implementiert die Methoden, die man benötigt.
@@ -2892,7 +2892,7 @@ ANTLR kann zu dieser Grammatik einen passenden Visitor (Interface
 `calcVisitor<T>`) generieren. Weiterhin generiert ANTLR eine leere
 Basisimplementierung (Klasse `calcBaseVisitor<T>`):
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeVisitor.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeVisitor_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeVisitor.png"  /></picture></p>
 
 Von dieser Basisklasse leitet man einen eigenen Visitor ab und
 überschreibt die Methoden, die man benötigt. Wichtig ist, dass man
@@ -3081,7 +3081,7 @@ def funcDecl(self, AST t):
     self.env.define(t.ID().getText(), fn)
 ```
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/fun.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/fun_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/fun.png"  /></picture></p>
 
 Quelle: Funktionsdeklaration: Eigener Code basierend auf einer Idee nach
 [LoxFunction.java](https://github.com/munificent/craftinginterpreters/blob/master/java/com/craftinginterpreters/lox/LoxFunction.java#L6)
@@ -3234,7 +3234,7 @@ auf und übergibt den Interpreter (== Zustand) und die Argumente. Die
 im Funktionsobjekt referenzierten AST-Teilbaum des Funktionskörpers mit
 dem Aufruf von `eval()` interpretieren ...
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/callFun.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/callFun_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/callFun.png"  /></picture></p>
 
 Für die nativen Funktionen leitet man einfach eine (anonyme) Klasse ab
 und speichert sie unter dem gewünschten Namen im globalen Kontext des
@@ -4533,7 +4533,7 @@ Projekt zu begleiten und wünschen Ihnen viel Erfolg!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bd3ca6a 2026-09-04 highlight xmas<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d327fb6 2026-09-04 add inverted images<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "jede" :) ... Die Idee muss zum Thema
     passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul

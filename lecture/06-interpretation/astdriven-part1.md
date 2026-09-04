@@ -255,7 +255,7 @@ float y;
 }
 ```
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/nested_envs.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/nested_envs_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/nested_envs.png"  /></picture></p>
 
 Das erinnert nicht nur zufällig an den Aufbau der Symboltabellen :-)
 

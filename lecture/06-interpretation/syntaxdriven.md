@@ -8,7 +8,7 @@
 > Zur Einordnung noch einmal die bisher betrachteten Phasen und die
 > jeweiligen Ergebnisse:
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb.png" width="60%" /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb.png" width="60%" /></picture></p>
 >
 > |  | Phase | Ergebnis |
 > |:-------|:----------------------|:----------------------------------------|
@@ -54,7 +54,7 @@
 
 ## Überblick Interpreter
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/interpreter.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/interpreter_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/interpreter.png" width="50%" /></picture></p>
 
 Beim Interpreter durchläuft der Sourcecode nur das Frontend, also die
 Analyse. Es wird kein Code erzeugt, stattdessen führt der Interpreter
@@ -192,7 +192,7 @@ s    : expr         {List<EContext> x = $expr.ctx.e();} ;
 expr : e '*' e ;
 ```
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParserRuleContext.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParserRuleContext_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParserRuleContext.png"  /></picture></p>
 
 Jede Regel liefert ein passend zu dieser Regel generiertes
 Kontext-Objekt zurück. Darüber kann man das/die Kontextobjekt(e) der
@@ -260,7 +260,7 @@ ANTLR kann zu dieser Grammatik einen passenden Listener (Interface
 `calcListener`) generieren. Weiterhin generiert ANTLR eine leere
 Basisimplementierung (Klasse `calcBaseListener`):
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeListener.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeListener_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeListener.png"  /></picture></p>
 
 Von dieser Basisklasse leitet man einen eigenen Listener ab und
 implementiert die Methoden, die man benötigt.
@@ -331,7 +331,7 @@ ANTLR kann zu dieser Grammatik einen passenden Visitor (Interface
 `calcVisitor<T>`) generieren. Weiterhin generiert ANTLR eine leere
 Basisimplementierung (Klasse `calcBaseVisitor<T>`):
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeVisitor.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeVisitor_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/ParseTreeVisitor.png"  /></picture></p>
 
 Von dieser Basisklasse leitet man einen eigenen Visitor ab und
 überschreibt die Methoden, die man benötigt. Wichtig ist, dass man

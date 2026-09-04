@@ -5,7 +5,7 @@
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/architektur_cb_lexer.png"  /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/architektur_cb_lexer_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/architektur_cb_lexer.png"  /></picture></p>
 >
 > Der Lexer (auch "Scanner") soll den Zeichenstrom in eine Folge von
 > Token zerlegen. Zur Spezifikation der Token werden reguläre Ausdrücke
@@ -139,7 +139,7 @@ sollte dann der Länge eines Disk-Blocks entsprechen.)
 Vergleiche auch [Wikipedia: "Circular
 Buffer"](https://en.wikipedia.org/wiki/Circular_buffer).
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/doublebuffer.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/doublebuffer_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/01-lexing/images/doublebuffer.png" width="65%" /></picture></p>
 
 ``` python
 start = 0; end = 0; fill(buffer[0:n])

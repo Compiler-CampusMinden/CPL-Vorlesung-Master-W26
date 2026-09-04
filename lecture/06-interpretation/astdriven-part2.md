@@ -102,7 +102,7 @@ def funcDecl(self, AST t):
     self.env.define(t.ID().getText(), fn)
 ```
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/fun.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/fun_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/fun.png"  /></picture></p>
 
 Quelle: Funktionsdeklaration: Eigener Code basierend auf einer Idee nach
 [LoxFunction.java](https://github.com/munificent/craftinginterpreters/blob/master/java/com/craftinginterpreters/lox/LoxFunction.java#L6)
@@ -255,7 +255,7 @@ auf und übergibt den Interpreter (== Zustand) und die Argumente. Die
 im Funktionsobjekt referenzierten AST-Teilbaum des Funktionskörpers mit
 dem Aufruf von `eval()` interpretieren ...
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/callFun.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/callFun_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/callFun.png"  /></picture></p>
 
 Für die nativen Funktionen leitet man einfach eine (anonyme) Klasse ab
 und speichert sie unter dem gewünschten Namen im globalen Kontext des

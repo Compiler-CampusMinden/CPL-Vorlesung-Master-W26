@@ -55,7 +55,7 @@ Einordnung: Erweiterung der Automatenklasse DFA um einen Stack
 $P = (Q,\ \Sigma,\ \Gamma,\  \delta,\ q_0,\ \perp,\ F)$ ist ein Septupel
 aus
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Def_PDA.png" width="60%" /></p><p align="center">Definition eines PDAs</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Def_PDA_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/Def_PDA.png" width="60%" /></picture></p><p align="center">Definition eines PDAs</p>
 
 Ein PDA ist per Definition nichtdeterministisch und kann spontane
 Zustandsübergänge durchführen.
@@ -78,7 +78,7 @@ muss es wieder gepusht werden.
 Ein PDA für
 $L=\lbrace ww^{R}\mid w\in \lbrace a,b\rbrace^{\ast}\rbrace$:
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/pda2.png" width="45%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/pda2_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/pda2.png" width="45%" /></picture></p>
 
 ### Deterministische PDAs
 

@@ -84,7 +84,7 @@ Ableitungen vom Nonterminal *X* aufbaut:
 **Eingabe:** Ein Nichtterminal $X$ und das nächste zu verarbeitende
 Eingabezeichen $a$.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/recursive_descent.png" width="55%" /></p><p align="center">Recursive Descent-Algorithmus</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/recursive_descent_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/recursive_descent.png" width="55%" /></picture></p><p align="center">Recursive Descent-Algorithmus</p>
 
 ### Wann scheitert das Verfahren?
 
@@ -200,7 +200,7 @@ Endezeichen
 
 **Ausgabe:** Eine Parsertabelle *P*
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parsertabelle.png" width="60%" /></p><p align="center">Algorithmus zur Generierung einer LL-Parsertabelle</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parsertabelle_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parsertabelle.png" width="60%" /></picture></p><p align="center">Algorithmus zur Generierung einer LL-Parsertabelle</p>
 
 Statt $First_1(\alpha)$ und $Follow_1(\alpha)$ wird oft nur
 $First(\alpha)$ und $Follow(\alpha)$ geschrieben.
@@ -224,7 +224,7 @@ $w\perp$ als initialem Kellerinhalt
 **Ausgabe:** Wenn $w \in L(G)$, eine Linksableitung von $w$, Fehler
 sonst
 
-<p align="center"><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parser.png" width="49%" /></p><p align="center">Algorithmus zum tabellengesteuerten LL-Parsen</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parser_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/02-parsing/images/LL-Parser.png" width="49%" /></picture></p><p align="center">Algorithmus zum tabellengesteuerten LL-Parsen</p>
 
 ## Wrap-Up
 

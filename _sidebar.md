@@ -24,3 +24,6 @@
     - [Syntaxgesteuerte Interpreter](lecture/06-interpretation/syntaxdriven.md)
   - **Optimierung**
     - [Optimierung und Datenflussanalyse](lecture/05-optimization/optimization.md)
+- **Praktikum**
+  - [Seminaristischer Unterricht: Vorträge zu Programmiersprachen und Compilerbau](homework/talk.md)
+  - [MIF 1.5 Kurs-Projekt: Sprachen und Compiler](homework/project.md)

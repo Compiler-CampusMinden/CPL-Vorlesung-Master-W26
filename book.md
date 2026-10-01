@@ -56,17 +56,20 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 |  | 30.10. | [LL-Parser (Theorie)](#id-07a415053a63f15160a328d38fe730bbd2c78148) | [Lexer (Implementierung)](#id-e459a0cea34b59c5b39e4a2e10ea30c515eba6b0) \| [LL-Parser (Implementierung)](#id-8f9ad51b1fa5549b458757512a9b2c5b7e30f08e) |  |
 | November | 06.11. | [LR-Parser](#id-cbdc409a00759785c1751b366323dc17dddf7a1a) | **Vortrag**: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, ...) | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
 |  | 13.11. | Semantische Analyse: [Intro](#id-b03cfb7bbd7121b294faa1cf2cb22d2a4851d02c) \| [Scopes](#id-322952562f00e1604c311da17b6a5207045e2ab1) \| [Funktionen](#id-33adf70dd90f23c46f778c96105777a5280a334c) \| [Klassen](#id-c6b409593a5212956e56ab3ed20b74aa86f4c204) | **Vortrag**: LALR, PEG, Pratt, Combinators |  |
-|  | 20.11. | **Vortrag**: Type Checking, Hindley-Milner | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) |  |
-|  | 27.11. | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) | **Kurzvortrag**: LP (Gabbrielli & Martini, Kap. 12) |  |
+|  | 20.11. | **Vortrag**: Type Checking, Hindley-Milner | **Pitch DSL-Projekt** |  |
+|  | 27.11. | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) |  |
 | Dezember | 04.12. | [Interpreter 1](#id-1ef3437e88d6d165c0cf233b6df46f1189d6d4b6) \| [Interpreter 2](#id-153937d8c8cfae4b7b9338d8dee2ea9c18a24ebf) | \- | **Mo, 30.11., 17:00 - 18:00 Uhr (online): Minden Presentations**: **Vorstellung "DSL-Projekt"** |
-|  | 11.12. | **Vortrag**: VM & Bytecode | **Kurzvortrag**: CP (Gabbrielli & Martini, Kap. 13) | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
-|  | 18.12. | [Optimierung und Datenfluss- und Kontrollflussanalyse](#id-8517cc4b94e74e2d9db32a91d3b1c7960002a981) | \- |  |
+|  | 11.12. | **Vortrag**: VM & Bytecode | **Kurzvortrag**: LP (Gabbrielli & Martini, Kap. 12) | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
+|  | 18.12. | [Optimierung und Datenfluss- und Kontrollflussanalyse](#id-8517cc4b94e74e2d9db32a91d3b1c7960002a981) | **Kurzvortrag**: CP (Gabbrielli & Martini, Kap. 13) |  |
 |  | *25.12.* | ***Weihnachtspause*** | \- |  |
 |  | *01.01.* | ***Weihnachtspause*** | \- |  |
-| Januar | 08.01. | **Vortrag**: Garbage Collection | Vortrag: JIT |  |
+| Januar | 08.01. | **Vortrag**: Garbage Collection | **Vortrag**: JIT |  |
 |  | 15.01. | **Kurzvortrag**: Borrow Checking und Lifetimes (Rust) | **Kurzvortrag**: Dependent Type Systems (Idris) |  |
 |  | 22.01. | *Sprechstunde* | *Freies Arbeiten* |  |
 |  | 29.01. | **Vorträge DSL-Projekt** | **Vorträge DSL-Projekt** |  |
+
+-   [Link zu den Talks](#id-a73470af5aac0f6102a1f24e33280ebad2acc29d)
+-   [Link zum DSL-Projekt](#id-441c6299f10fc33707a0080c5fef11dc5a486466)
 
 #### Prüfungsform, Note und Credits
 
@@ -74,15 +77,18 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 
 ##### **Studienleistung**: "Portfolio" - Kriterien je Person:
 
-1.  Teilnahme an mind. zwei Edmonton/Minden-Terminen mit aktiver Beteiligung, pro Team ist am zweiten Treffen ein Vortrag zum DSL-Projekt a 45 Minuten zu halten (Englisch!)
+1.  **Projekt-Pitch** (Vorstellung der Konzepte für das DSL-Projekt): Freitag, 20.11., ca. 20 Minuten (pro Team); **Exposé** bis zum 19.11.
+2.  Teilnahme an **mind. zwei Edmonton/Minden-Terminen** mit aktiver Beteiligung, pro Team ist am zweiten Treffen ein Vortrag zum DSL-Projekt ca. 45 Minuten zu halten (Englisch!)
     -   Termin 1: Dienstag, 03.11., 17:00 - 18:00 Uhr (online)
-    -   **Termin 2: Montag, 30.11., 17:00 - 18:00 Uhr (online): Vortrag zum DSL-Projekt**
+    -   **Termin 2**: Montag, 30.11., 17:00 - 18:00 Uhr (online): **Vorstellung der DSL-Projekte** (Projektvortrag 1), ca. 40-45 Minuten pro Team (**Englisch**)
     -   Termin 3: Montag, 07.12., 17:00 - 18:00 Uhr (online)
-2.  Kurzvortrag "PL Features" a 20 Minuten (pro Team) plus Diskussionsleitung
-3.  Vortrag "Compiler" a 60 Minuten (pro Team)
-4.  Abschlussvortrag zum DSL-Projekt am Semesterende (29.01.) a 30 Minuten (pro Team)
+3.  **Kurzvortrag** "PL Features" ca. 20 Minuten (pro Team) plus Diskussionsleitung
+4.  **Fachvortrag** "Compiler" ca. 60 Minuten (pro Team)
+5.  **Abschlusspräsentation** zum DSL-Projekt (Projektvortrag 2) am Semesterende (Freitag, 29.01.) ca. 30 Minuten (pro Team)
 
-Zu diesen Leistungen soll ein Lerntagebuch geführt und abgegeben werden (**jede Person individuell**).
+Zu diesen Leistungen soll ein **Lerntagebuch** (s.u.) geführt und abgegeben werden (**jede Person individuell**).
+
+Das Exposé, die Slides (Edmonton-Talk, Kurzvortrag, Fachvortrag, Abschlusspräsentation) und das Lerntagebuch sind im **[ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006)** als PDF abzugeben. Bitte beachtet die jeweiligen Abgabefristen im ILIAS!
 
 ##### **Gesamtnote**: Mündliche Prüfung (einzeln, ca. 45 Minuten)
 
@@ -5151,6 +5157,274 @@ Die Verringerung der Spannung um 20% führt zu einer um 20% geringeren Prozessor
 >
 > </details>
 
+<a id="id-a264d337dcfeece8936f208b6f89bb1efe99ea0f"></a>
+
+## Praktikum
+
+Hier finden Sie die Übungsblätter.
+
+<a id="id-a73470af5aac0f6102a1f24e33280ebad2acc29d"></a>
+
+### Seminaristischer Unterricht: Vorträge zu Programmiersprachen und Compilerbau
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> In diesem Semester sind mehrere Vorträge Teil der Prüfungsleistung. Pro Team sind zu halten:
+>
+> -   ein **Kurzvortrag** (ca. 20 Minuten) zu einem Thema aus dem Bereich Programmiersprachen/-konzepte,
+> -   ein **Fachvortrag** (ca. 60 Minuten) zu einem Compiler-Thema,
+> -   zwei **Projektvorträge** (einmal im Edmonton-/Minden-Meeting, einmal zum Semesterende).
+>
+> Alle Vorträge richten sich an Master-Studierende und sollen fachlich fundiert, klar strukturiert und mit nachvollziehbaren Beispielen unterlegt sein. Bitte planen Sie aktivierende Elemente (Diskussionsfragen, kurze Demos) ein.
+>
+> Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](#id-275d783e298228506068436512433d343feb52aa).
+>
+> </details>
+
+#### Kurzvortrag "PL Feature" (ca. 20 Minuten, DE)
+
+Ziel ist die Einführung in ein ausgewähltes Programmiersprachen-Thema. Das vortragende Team arbeitet die Kernideen heraus und demonstriert zentrale Konzepte anhand kleiner, prägnanter Beispiele und leitet die anschließende Diskussion.
+
+Alle Teams haben die Literatur zu den Kurzvorträgen zumindest grob überflogen. Das vortragende Team leitet die an den Vortrag anschließende Diskussion und bereitet 2-4 gezielte Diskussionsfragen zur Aktivierung der Zuhörenden vor.
+
+##### Verfügbare Themen:
+
+1.  Object-Oriented Paradigm (OOP) (([Gabbrielli und Martini 2023](#ref-Gabbrielli2023)), Kap. 10)
+2.  Functional Programming Paradigm (FP) (([Gabbrielli und Martini 2023](#ref-Gabbrielli2023)), Kap. 11)
+3.  Logic Programming Paradigm (LP) (([Gabbrielli und Martini 2023](#ref-Gabbrielli2023)), Kap. 12)
+4.  Constraint Programming Paradigm (CP) (([Gabbrielli und Martini 2023](#ref-Gabbrielli2023)), Kap. 13)
+5.  Borrow Checking und Lifetimes am Beispiel [Rust](https://www.rust-lang.org/)
+6.  Dependent Type Systems am Beispiel [Idris](https://www.idris-lang.org/)
+    -   [Why Dependent Types Matter](https://people.cs.nott.ac.uk/psztxa/publ/ydtm.pdf)
+    -   [IDRIS ---: systems programming meets full dependent types](https://dl.acm.org/doi/10.1145/1929529.1929536)
+
+##### Weitere mögliche Themen (nach Absprache):
+
+-   Algebraische Effekte und Effekt-Systeme (z.B. Koka), Exceptions vs. Effekte
+-   Pattern Matching und Algebraische Datentypen (OCaml/F#/Scala)
+-   Metaprogrammierung und Makros (Lisp/Clojure, Rust macro_rules! und proc-macros)
+-   Gradual Typing (TypeScript, Sorbet), Typklassen und Traits (Haskell/Rust)
+
+##### Hinweise:
+
+-   *Jede Person* bereitet sich vorab vor; das präsentierende Team moderiert die Diskussion
+-   Ziel ist Transferfähigkeit: Nach dem Vortrag sollen Zuhörende weiterführende Literatur verstehen und Ideen praktisch erproben können
+-   Empfohlen: Zwei bis drei gut kuratierte Codebeispiele (live oder als Snippets), Vorbereitung von einigen Diskussionsfragen
+-   Vortragssprache ist Deutsch
+
+##### Empfohlene weitere Referenzen (allgemein):
+
+-   Gabbrielli und Martini ([2023](#ref-Gabbrielli2023))
+-   Krishnamurthi ([2025](#ref-PLAI2025))
+-   Thain ([2023](#ref-Thain2020))
+
+#### Fachvortrag "Compiler" (ca. 60 Minuten + 10 Minuten Q&A, DE)
+
+Ziel ist die systematische Einführung in ein Compiler/VM-Thema mit genügend fachlicher Tiefe, so dass die Zuhörenden danach relevante Literatur lesen und das Thema praktisch anwenden können.
+
+Bitte achten Sie auf eine präzise Begriffsbildung und den Einordnung in den Stand der Forschung/Praxis. Erstellen Sie eigene Beispiele und ggf. kurze Demos.
+
+##### Verfügbare Themen:
+
+1.  Parsergeneratoren ([ANTLR](https://www.antlr.org/), [Tree-Sitter](http://tree-sitter.github.io/tree-sitter/), Flex & Bison, ...)
+2.  Fortgeschrittene Parsertechniken: LALR, PEG, Pratt, Parser-Combinators
+3.  Typen, Typsysteme, Type Checking
+    -   [Hindley-Milner-Typsystem](https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system)
+    -   [Propositions as Types (Wadler)](https://dl.acm.org/doi/abs/10.1145/2699407)
+    -   [Typechecker Zoo (Diehl)](https://sdiehl.github.io/typechecker-zoo/)
+    -   [On Understanding Types, Data Abstraction, and Polymorphism (Cardelli/Wegner)](https://dl.acm.org/doi/pdf/10.1145/6041.6042)
+4.  VM & Bytecode
+    -   [AST vs. Bytecode: Interpreters in the Age of Meta-Compilation](https://dl.acm.org/doi/abs/10.1145/3622808)
+    -   [An Introduction to Interpreters and JIT Compilation](https://stefan-marr.de/2023/09/pliss-summer-school/)
+    -   [Optimizing the Order of Bytecode Handlers in Interpreters using a Genetic Algorithm](https://dl.acm.org/doi/abs/10.1145/3555776.3577712)
+    -   Beispiele: JVM oder WASM
+5.  Garbage Collection
+    -   ([Nystrom 2021](#ref-Nystrom2021)), Kap. 26
+    -   [Unified Theory of Garbage Collection](https://dl.acm.org/doi/10.1145/1035292.1028982)
+    -   [Fast Conservative Garbage Collection](https://dl.acm.org/doi/10.1145/2660193.2660198)
+    -   [GC vs. explicit memory management](https://dl.acm.org/doi/10.1145/1103845.1094836)
+6.  Just-in-Time Compilation (JIT)
+    -   [An Introduction to Interpreters and JIT Compilation](https://stefan-marr.de/2023/09/pliss-summer-school/)
+    -   [AST vs. Bytecode: Interpreters in the Age of Meta-Compilation](https://dl.acm.org/doi/abs/10.1145/3622808)
+
+##### Weitere mögliche Themen (nach Absprache):
+
+-   Fehlertolerantes Parsen und Diagnosequalität (Error Recovery, präzise Fehlermeldungen)
+-   Inkrementelle/Interaktive Compiler (IDE-Services, Language Server Protocol)
+-   Testen von Compilern
+    -   [Finding and Understanding Bugs in C Compilers](https://users.cs.utah.edu/~regehr/papers/pldi11-preprint.pdf)
+    -   [Validating JIT Compilers via Compilation Space Exploration](https://connglli.github.io/pdfs/artemis_sosp23.pdf)
+    -   [A Survey of Compiler Testing](https://software-lab.org/publications/csur2019_compiler_testing.pdf)
+    -   [An empirical comparison of compiler testing techniques](https://xiongyingfei.github.io/papers/ICSE16.pdf)
+    -   [Compiler Testing: A Systematic Literature Analysis](https://arxiv.org/abs/1810.02718)
+    -   [Snapshot Testing for Compilers](https://www.cs.cornell.edu/~asampson/blog/turnt.html)
+    -   [Tiny Unified Runner N' Tester (Turnt)](https://github.com/cucapra/turnt)
+    -   [Testing Language Implementations](https://youtu.be/ZJUk8_k1HbY?si=Mis0l6M07vbI8Rqx)
+
+##### Empfohlene weitere Referenzen (allgemein):
+
+-   Nystrom ([2021](#ref-Nystrom2021))
+-   Torczon und Cooper ([2012](#ref-Torczon2012))
+-   Thain ([2023](#ref-Thain2020))
+-   Pierce ([2002](#ref-Pierce2002))
+
+Planen Sie im Anschluss an den 60-minütigen Vortrag ca. 10 Minuten Q&A und Diskussion ein.
+
+#### Zwei Vorträge zum Projekt
+
+1.  Projektvortrag 1: **Edmonton-/Minden-Meeting (Termin 2)**
+    -   Dauer: ca. 40-45 Minuten pro Team, parallel in Breakout-Gruppen
+    -   Ziel: Vorstellung von Idee, Problemstellung, Architektur/Design, MVP/Prototyp-Status, Risiken und Evaluationsplan
+    -   Publikum: Kanadische Studierende; bitte auf klare "Problem-Ansatz-Nutzen"-Struktur achten
+    -   Sprache: **Englisch**
+
+<!-- -->
+
+2.  Projektvortrag 2: **Abschlusspräsentation**
+    -   Dauer: ca. 30 Minuten pro Team (Vorlesungs- und Praktikumsslot)
+    -   Ziel: Ergebnisse, Demos, Evaluation, Lessons Learned, Ausblick
+
+Siehe auch [Beschreibung zum Projekt](#id-441c6299f10fc33707a0080c5fef11dc5a486466). Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](#id-275d783e298228506068436512433d343feb52aa).
+
+<a id="id-441c6299f10fc33707a0080c5fef11dc5a486466"></a>
+
+### MIF 1.5 Kurs-Projekt: Sprachen und Compiler
+
+#### Ziel und Rahmen
+
+In diesem Projekt beschäftigen Sie sich mit fortgeschrittenen Inhalten im Bereich Programmiersprachen und Compilerbau. Sie können eigenständige Ideen einbringen oder einen der nachfolgend genannten Vorschläge aufgreifen und verfeinern. Neben der praktischen Beschäftigung mit den Kurs-Themen recherchieren Sie selbstständig nach relevanter Fachliteratur und reflektieren Ihre Designentscheidungen.
+
+<div data-align="center">
+
+Für das MIF‑1.5‑Kursprojekt können Sie jede[^1] Idee wählen, die einen Bezug zum Compilerbau hat.
+
+</div>
+
+#### Passende Themen (nicht abschließend)
+
+Umfang und geeignete Themen (Beispiele, nicht abschließend)
+
+-   Sprachdesign (DSLs), Scanner/Parser (ANTLR, tree-sitter), Typ-/Effekt-Systeme
+-   IR-Design und -Transformation (Intermediate Representation), z.B. [Bril](https://github.com/sampsyo/bril), SSA, Dataflow-Analysen
+-   MLIR (Multi-Level IR): Dialektentwurf, Lowerings, Pass-Pipelines, Canonicalization
+-   Interpreter, VM/JIT, Codegenerierung (z.B. LLVM), Linken/Laden
+-   Statische Analysen, Verifikation, Symbolik/SMT, Transformationspipelines
+-   E-Graphs und Equality Saturation (z.B. egg/egglog) für optimierende Umformungen
+-   Tooling: Incremental Build/Hot-Reload, Profiling/Tracing, Debug-Infos, Fehlermeldungen
+
+Bitte wählen Sie einen klar abgegrenzten Scope, der in Tiefe und Breite zum Semester passt.
+
+Potentiell interessante Literatur im Bereich DSL:
+
+-   Fowler ([2010](#ref-Fowler2010))
+-   Voelter ([2013](#ref-Voelter2013)) (*Anmerkung*: Das Buch ist recht alt, aber die ersten drei Kapitel könnten hilfreich sein.)
+-   Mernik u. a. ([2005](#ref-mernik2005))
+
+#### Projektanregungen
+
+-   DSL und IR: Entwerfen Sie eine DSL zur Beschreibung von Quests/Übungsaufgaben und transformieren Sie diese in eine geeignete IR (z.B. Bril). Fokus: Grammatik, statische Checks, saubere IR-Übersetzung.
+
+    <details>
+
+    Didaktische Inhalte können in Serious-Games effizienter bereitgestellt werden, wenn Lehrende über eine fachnahe, deklarative Sprache arbeiten. Spiele wie beispielsweise das Dungeon-Framework (ECS, Game-Loop) haben eine entsprechende API, die Nutzung erfordert jedoch aktuell dedizierte Kenntnisse der API und der jeweiligen Programmiersprache. Eine DSL mit Interpreter schließt diese Lücke und eröffnet Raum für Forschung zu Sprachdesign, Laufzeitintegration, Event-Verarbeitung und Performanz in Game-Loops.
+
+    Sie entwickeln eine domänenspezifische Sprache (DSL) zur Beschreibung fachlicher Unterrichtsaufgaben und Escape-Room-Rätsel sowie die Übersetzung in ein geeignetes Zwischencode-Format.
+
+    *Anmerkung*: Die IR könnte auch MiniJava aus dem nachfolgenden Projektvorschlag sein ...
+
+    </details>
+
+-   Visualisierung von Programmabläufen in einem interaktiven Interpreter im [Dungeon](https://github.com/Dungeon-CampusMinden/Dungeon): Behandeln Sie den laufenden Dungeon als Environment des Interpreters. Variablen könnten z.b. als Komponenten an NPC/Entities abgelegt werden. Berechnungen werden damit über Dungeon-Objekte sichtbar (z.B. Datenfluss als Bewegungen/Effekte). Fokus: Semantik/Runtime-Mapping, Ereignisverarbeitung.
+
+    <details>
+
+    Sie entwickeln einen Interpreter, der z.B. einen Sub-Dialekt von Python zur Laufzeit in ein Computer-Spiel wie das Java-basierte [Dungeon-Framework](https://github.com/Dungeon-CampusMinden/Dungeon) oder das von Ihnen parallel im Wahlmodul "Computer Games" entwickelte Spiel integriert.
+
+    Der Interpreter übernimmt die initiale Levelkonfiguration, beobachtet Spielereignisse, bewertet Lösungen und interagiert zur Laufzeit mit Spieler:innen (REPL).
+
+    </details>
+
+-   Blockly -\> Dungeon: Parsen und Interpretieren von Blockly-Code im [Dungeon](https://github.com/Dungeon-CampusMinden/Dungeon)
+
+    <details>
+
+    Im [Dungeon-Projekt](https://github.com/Dungeon-CampusMinden/Dungeon) wurde eine Blockly-Anbindung realisiert. Dabei werden vordefinierte Rätsel im Dungeon gestartet und parallel ein Blockly-Fenster, und durch Zusammenklicken der passenden Blöcke kann man das Rätsel im Dungeon lösen. Man sieht dabei live die Auswirkungen des Blockly-Codes auf den Dungeon. Das Blockly-Projekt im Dungeon richtet sich an Programmier-Einsteiger:innen (ca. 5./6. Klasse).
+
+    In der vorliegenden Implementierung wurde zu jedem Block in Blockly der zugehörige Java-Code aus der Dungeon-API als Konfiguration hinterlegt. Blockly sendet diesen Code als Text über eine Remote-Schnittstelle an den laufenden Dungeon, wo der komplette Code in eine temporäre Datei gespeichert und zusammen mit der Dungeon-API und dem `javac` übersetzt wird und per Hot-Reloading in das laufende Spiel geladen wird. Das ist nicht nur sehr umständlich, sondern die Dungeon-API wird fest in den Textschnipseln von Blockly verdrahtet und ist damit anfällig für Refactoring.
+
+    Ziel dieses Projekt-Vorschlags ist die Entkopplung von Blockly und der Dungeon-API durch eine geeignete DSL. Für die Blöcke in Blockly soll eine einfache, vom Dungeon unabhängige DSL definiert werden. Der DSL-Code soll in einem Interpreter, der im Dungeon als "System" in der ECS-Architektur mitläuft, empfangen und verarbeitet werden und in die entsprechenden Aktionen im Dungeon umgesetzt werden.
+
+    Dieses Projekt kann auch mit der nachfolgenden Projekt-Anregung kombiniert werden: Der Blockly-Code wird in einem von Ihnen entwickelten Transpiler nach MiniJava übersetzt (und dann von dem im anderen Projekt entwickelten Interpreter im Dungeon interpretiert).
+
+    </details>
+
+-   MiniJava als einfache OOP-Sprache mit FP-Features für Spiel mit VSCode Extension
+
+    <details>
+
+    Im [Dungeon-Projekt](https://github.com/Dungeon-CampusMinden/Dungeon) wurde eine VSCode-Extension realisiert. In diesem Plugin kann vereinfachter Java-Code mit direkter Anbindung an die Dungeon-API geschrieben werden, der im Dungeon ausgeführt wird (über den im Blockly-Projekt beschriebenen Mechanismus "Speichern \> Javac \> Hot-Reloading) und so die vorgegebenen Rätsel löst. Das VSCode-Projekt im Dungeon richtet sich an fortgeschrittene Programmier-Einsteiger:innen (ca. 10./11. Klasse). Letztlich sind dieser vereinfachte Java-Code und die Konfiguration der Blockly-Blöcke nur eine andere Art der Schnittstelle für die selbe Verarbeitung im Dungeon, beide können relativ frei gegeneinander ausgetauscht werden.
+
+    Ziel dieses Projekt-Vorschlags ist die Definition einer einfachen objektorientierten Sprache ("MiniJava") mit Features aus der funktionalen Programmierung, die sich für Programmier-Einsteiger leicht verstehen lässt und an der man wichtige Programmierkonzepte einfach erlernen kann. Diese Sprache soll unabhängig von der Dungeon-API sein, aber trotzdem typische Möglichkeiten für die Interaktion in Spielen aufweisen. Für diese Sprache soll ein Interpreter entwickelt werden, der im Dungeon als "System" in der ECS-Architektur mitläuft, empfangen und verarbeitet werden und in die entsprechenden Aktionen im Dungeon umgesetzt werden. Zusätzlich soll eine VSCode-Extension realisiert werden, die Syntax-Highlighting und Autocompletion unterstützt und per Tool-Tip die jeweilige Dokumentation anzeigen kann.
+
+    Dieses Projekt lässt sich im Verarbeitungsteil in zwei Projekte aufteilen: Ein Projekt bearbeitet die VSCode-Extension für MiniJava, das andere Projekt realisiert den Interpreter für MiniJava im Dungeon.
+
+    </details>
+
+-   Compiler Bootstrapping: Eine kleine Sprache mit OOP- und FP-Features entwerfen und zwei Compiler bauen
+
+    <details>
+
+    Sie entwerfen eine kleine Sprache "X" mit OOP- und FP-Elementen.
+
+    Sie implementieren Compiler "A" in einer bestehenden Sprache Ihrer Wahl (Haskell, OCaml, Racket, Clojure, Java, zur Not auch Python oder Rust oder andere). Compiler A übersetzt nur ein Minimal-Subset von X: "X-min". A parst X-min, prüft Typen in einfacher Form und erzeugt Code in der gewählten Zielsprache ("transpiling").
+
+    Sie schreiben nun in X-min den Compiler "B", der den vollen Sprachumfang von X übersetzen kann. Sie zeigen Bootstrapping: B wird mit A gebaut und kompiliert anschließend in X formulierte Programme. B parst und kompiliert die Vollsprache X. B darf intern ein Desugaring auf den Kern verwenden.
+
+    Bootstrapping: B wird mit A auf die Zielplattform transpiliert. Sie kompilieren die *Quellen* von B mit dem Compiler A. Sie erhalten daraus den Compiler B in der Zielsprache (Sourcecode für B in der Zielsprache, z.B. Haskell, Java, ...). Sie bauen nun B mit dem passenden Systemwerkzeug (z.B. javac oder gcc). Verwenden sie den so entstehenden ausführbaren Compiler B, um Programme der Vollsprache X zu kompilieren.
+
+    Self-Hosting: Kann Ihr Compiler B sich selbst kompilieren, also kann B den in X geschriebenen Quellcode von B korrekt übersetzen?
+
+    Transpiling: Die Codegenerierung kann als Transpilation in eine bestehende Zielsprache (z.B. Java oder C) erfolgen. Sie brauchen also keine SSA-Phase und Assembler-Generierung o.ä. umsetzen. Der so generierte Code soll sich mit Standardwerkzeugen kompilieren oder ausführen lassen (z.B. javac, gcc, python, node). Sie sollten vermutlich eine kleine Laufzeitbibliothek in der Zielsprache mitliefern.
+
+    </details>
+
+-   LaTeX Equation Language: Parsen und übersetzen eines LaTeX-Teilgrammatik (Arithmetik, cases, Funktionsdefinition) in ausführbaren LLVM-IR-Code oder Java-Bytecode o.ä. Ziel: Brücke von symbolischer Notation zu maschinennahem Code.
+
+-   MLIR/E-Graphs-Pipeline: Entwurf eines kleinen MLIR-Dialekts (z.B. arithmetische Ausdrücke) mit Lowering nach LLVM; alternativ/ergänzend Optimierung via E-Graphs (Equality Saturation) und anschließendes Lowering.
+
+Neben passenden Konzepten soll auch eine geeignete Umsetzung/Implementierung erstellt und empirisch untersucht werden.
+
+#### Exposé (pro Team, Kurs-GitHub)
+
+-   Umfang: 150--400 Wörter
+-   Struktur:
+    1.  Was wollt ihr machen?
+    2.  Warum ist das spannend?
+    3.  Wie werdet ihr das umsetzen?
+    4.  Wie könnt ihr euren Erfolg empirisch bewerten?
+    5.  Wer ist alles im Team?
+
+Bitte beschreiben Sie die einzelnen Punkte so ausführlich wie nötig, um nachvollziehbar zu sein.
+
+Abgabe als PDF im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006), spätestens einen Tag vor der internen Projektvorstellung.
+
+#### Organisation
+
+##### Teams
+
+Die Bearbeitung erfolgt in 3er-Teams.
+
+##### Fristen
+
+-   **Projekt-Pitch** (Praktikumsslot): Vorstellung der Konzepte für das DSL-Projekt; pro Team eine Präsentation von ca. 20 Minuten; das **Exposé** soll mind. einen Tag vorher im ILIAS eingestellt sein =\> Generalprobe für den [Talk](#id-a73470af5aac0f6102a1f24e33280ebad2acc29d) im Edmonton-/Minden-Meeting
+-   **Edmonton/Minden**: Vorstellung Ihres Projekts auf dem 2. Edmonton-Meeting (pro Team eine **englisch-sprachige** Präsentation von ca. 40-45 Minuten plus Diskussion in Breakout-Gruppen)
+-   **Abschlusspräsentation** (Vorlesungs- und Praktikumsslot): pro Team eine Präsentation von ca. 30 Minuten zum DSL-Projekt
+
+Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](#id-275d783e298228506068436512433d343feb52aa).
+
 ------------------------------------------------------------------------
 
 > [!NOTE]
@@ -5163,6 +5437,18 @@ Die Verringerung der Spannung um 20% führt zu einer um 20% geringeren Prozessor
 > <div id="ref-Aho2023" class="csl-entry">
 >
 > Aho, A. V., M. S. Lam, R. Sethi, J. D. Ullman, und S. Bansal. 2023. *Compilers: Principles, Techniques, and Tools, Updated 2nd Edition by Pearson*. Pearson India. <https://learning.oreilly.com/library/view/compilers-principles-techniques/9789357054881/>.
+>
+> </div>
+>
+> <div id="ref-Fowler2010" class="csl-entry">
+>
+> Fowler, M. 2010. *Domain Specific Languages*. Addison Wesley. <https://learning.oreilly.com/library/view/domain-specific-languages/9780132107549/>.
+>
+> </div>
+>
+> <div id="ref-Gabbrielli2023" class="csl-entry">
+>
+> Gabbrielli, M., und S. Martini. 2023. *Programming Languages: Principles and Paradigms*. Springer Cham. <https://doi.org/10.1007/978-3-031-34144-1>.
 >
 > </div>
 >
@@ -5184,6 +5470,12 @@ Die Verringerung der Spannung um 20% führt zu einer um 20% geringeren Prozessor
 >
 > </div>
 >
+> <div id="ref-PLAI2025" class="csl-entry">
+>
+> Krishnamurthi, S. 2025. „Programming Languages: Application and Interpretation". <https://www.plai.org/>.
+>
+> </div>
+>
 > <div id="ref-Kunert2018" class="csl-entry">
 >
 > Kunert, A. 2018. „LR(k)-Analyse für Pragmatiker". <http://amor.cms.hu-berlin.de/~kunert/papers/lr-analyse/lr.pdf>.
@@ -5193,6 +5485,12 @@ Die Verringerung der Spannung um 20% führt zu einer um 20% geringeren Prozessor
 > <div id="ref-Levine2009" class="csl-entry">
 >
 > Levine, J. 2009. *Flex & Bison*. O'Reilly.
+>
+> </div>
+>
+> <div id="ref-mernik2005" class="csl-entry">
+>
+> Mernik, M., J. Heering, und A. M. Sloane. 2005. „When and How to Develop Domain-Specific Languages". *ACM Computing Surveys (CSUR)* 37 (4): 316--44. <https://john.cs.olemiss.edu/~hcc/csci658/notes/localcopy/WhenDSL.pdf>.
 >
 > </div>
 >
@@ -5220,9 +5518,27 @@ Die Verringerung der Spannung um 20% führt zu einer um 20% geringeren Prozessor
 >
 > </div>
 >
+> <div id="ref-Pierce2002" class="csl-entry">
+>
+> Pierce, B. C. 2002. *Types and Programming Languages*. MIT Press.
+>
+> </div>
+>
+> <div id="ref-Thain2020" class="csl-entry">
+>
+> Thain, D. 2023. *Introduction to Compilers and Language Design*. <https://www3.nd.edu/~dthain/compilerbook/>.
+>
+> </div>
+>
 > <div id="ref-Torczon2012" class="csl-entry">
 >
 > Torczon, L., und K. Cooper. 2012. *Engineering a Compiler*. Morgan Kaufmann. <https://learning.oreilly.com/library/view/engineering-a-compiler/9780080916613/>.
+>
+> </div>
+>
+> <div id="ref-Voelter2013" class="csl-entry">
+>
+> Voelter, M. 2013. *DSL Engineering: Designing, Implementing and Using Domain-Specific Languages*. CreateSpace Independent Publishing Platform. <https://www.voelter.de/dslbook/markusvoelter-dslengineering-1.0.pdf>.
 >
 > </div>
 >
@@ -5244,12 +5560,14 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
--   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
 -   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
+-   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
+-   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
 -   ["Language Prolog"](https://www.99-bottles-of-beer.net/language-prolog-965.html) by M@ on 99-bottles-of-beer.net
 -   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
--   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
+-   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
 -   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6698786 2026-09-29 orga: fix talk and project (mostly)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 25ce7e1 2026-10-01 orga: move all deadlines to orga/readme as single source of truth<br></sub></sup></p></blockquote>
+
+[^1]: ... for a given value of "jede" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.

@@ -52,17 +52,20 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 |  | 30.10. | [LL-Parser (Theorie)](lecture/02-parsing/ll-parser.md) | [Lexer (Implementierung)](lecture/01-lexing/recursive.md) \| [LL-Parser (Implementierung)](lecture/02-parsing/ll-parser-impl.md) |  |
 | November | 06.11. | [LR-Parser](lecture/02-parsing/lr-parser.md) | **Vortrag**: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, ...) | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
 |  | 13.11. | Semantische Analyse: [Intro](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) \| [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | **Vortrag**: LALR, PEG, Pratt, Combinators |  |
-|  | 20.11. | **Vortrag**: Type Checking, Hindley-Milner | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) |  |
-|  | 27.11. | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) | **Kurzvortrag**: LP (Gabbrielli & Martini, Kap. 12) |  |
+|  | 20.11. | **Vortrag**: Type Checking, Hindley-Milner | **Pitch DSL-Projekt** |  |
+|  | 27.11. | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) |  |
 | Dezember | 04.12. | [Interpreter 1](lecture/06-interpretation/astdriven-part1.md) \| [Interpreter 2](lecture/06-interpretation/astdriven-part2.md) | \- | **Mo, 30.11., 17:00 - 18:00 Uhr (online): Minden Presentations**: **Vorstellung "DSL-Projekt"** |
-|  | 11.12. | **Vortrag**: VM & Bytecode | **Kurzvortrag**: CP (Gabbrielli & Martini, Kap. 13) | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
-|  | 18.12. | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | \- |  |
+|  | 11.12. | **Vortrag**: VM & Bytecode | **Kurzvortrag**: LP (Gabbrielli & Martini, Kap. 12) | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
+|  | 18.12. | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | **Kurzvortrag**: CP (Gabbrielli & Martini, Kap. 13) |  |
 |  | *25.12.* | ***Weihnachtspause*** | \- |  |
 |  | *01.01.* | ***Weihnachtspause*** | \- |  |
-| Januar | 08.01. | **Vortrag**: Garbage Collection | Vortrag: JIT |  |
+| Januar | 08.01. | **Vortrag**: Garbage Collection | **Vortrag**: JIT |  |
 |  | 15.01. | **Kurzvortrag**: Borrow Checking und Lifetimes (Rust) | **Kurzvortrag**: Dependent Type Systems (Idris) |  |
 |  | 22.01. | *Sprechstunde* | *Freies Arbeiten* |  |
 |  | 29.01. | **Vorträge DSL-Projekt** | **Vorträge DSL-Projekt** |  |
+
+-   [Link zu den Talks](homework/talk.md)
+-   [Link zum DSL-Projekt](homework/project.md)
 
 ### Prüfungsform, Note und Credits
 
@@ -70,15 +73,18 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 
 #### **Studienleistung**: "Portfolio" - Kriterien je Person:
 
-1.  Teilnahme an mind. zwei Edmonton/Minden-Terminen mit aktiver Beteiligung, pro Team ist am zweiten Treffen ein Vortrag zum DSL-Projekt a 45 Minuten zu halten (Englisch!)
+1.  **Projekt-Pitch** (Vorstellung der Konzepte für das DSL-Projekt): Freitag, 20.11., ca. 20 Minuten (pro Team); **Exposé** bis zum 19.11.
+2.  Teilnahme an **mind. zwei Edmonton/Minden-Terminen** mit aktiver Beteiligung, pro Team ist am zweiten Treffen ein Vortrag zum DSL-Projekt ca. 45 Minuten zu halten (Englisch!)
     -   Termin 1: Dienstag, 03.11., 17:00 - 18:00 Uhr (online)
-    -   **Termin 2: Montag, 30.11., 17:00 - 18:00 Uhr (online): Vortrag zum DSL-Projekt**
+    -   **Termin 2**: Montag, 30.11., 17:00 - 18:00 Uhr (online): **Vorstellung der DSL-Projekte** (Projektvortrag 1), ca. 40-45 Minuten pro Team (**Englisch**)
     -   Termin 3: Montag, 07.12., 17:00 - 18:00 Uhr (online)
-2.  Kurzvortrag "PL Features" a 20 Minuten (pro Team) plus Diskussionsleitung
-3.  Vortrag "Compiler" a 60 Minuten (pro Team)
-4.  Abschlussvortrag zum DSL-Projekt am Semesterende (29.01.) a 30 Minuten (pro Team)
+3.  **Kurzvortrag** "PL Features" ca. 20 Minuten (pro Team) plus Diskussionsleitung
+4.  **Fachvortrag** "Compiler" ca. 60 Minuten (pro Team)
+5.  **Abschlusspräsentation** zum DSL-Projekt (Projektvortrag 2) am Semesterende (Freitag, 29.01.) ca. 30 Minuten (pro Team)
 
-Zu diesen Leistungen soll ein Lerntagebuch geführt und abgegeben werden (**jede Person individuell**).
+Zu diesen Leistungen soll ein **Lerntagebuch** (s.u.) geführt und abgegeben werden (**jede Person individuell**).
+
+Das Exposé, die Slides (Edmonton-Talk, Kurzvortrag, Fachvortrag, Abschlusspräsentation) und das Lerntagebuch sind im **[ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006)** als PDF abzugeben. Bitte beachtet die jeweiligen Abgabefristen im ILIAS!
 
 #### **Gesamtnote**: Mündliche Prüfung (einzeln, ca. 45 Minuten)
 
@@ -131,4 +137,4 @@ Wir freuen uns, auch in diesem Semester wieder drei gemeinsame Sitzungen für be
 
 Unless otherwise noted, [this work](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master) by [BC George](https://github.com/bcg7), [Carsten Gips](https://github.com/cagix) and [contributors](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/graphs/contributors) is licensed under [CC BY-SA 4.0](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/LICENSE.md). See the [credits](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/CREDITS.md) for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> cae3652 2026-09-29 orga: update exams<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 25ce7e1 2026-10-01 orga: move all deadlines to orga/readme as single source of truth<br></sub></sup></p></blockquote>

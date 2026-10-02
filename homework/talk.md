@@ -1,21 +1,4 @@
-# Seminaristischer Unterricht: Vorträge zu Programmiersprachen und Compilerbau
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> In diesem Semester sind mehrere Vorträge Teil der Prüfungsleistung. Pro Team sind zu halten:
->
-> -   ein **Kurzvortrag** (ca. 20 Minuten) zu einem Thema aus dem Bereich Programmiersprachen/-konzepte,
-> -   ein **Fachvortrag** (ca. 60 Minuten) zu einem Compiler-Thema,
-> -   zwei **Projektvorträge** (einmal im Edmonton-/Minden-Meeting, einmal zum Semesterende).
->
-> Alle Vorträge richten sich an Master-Studierende und sollen fachlich fundiert, klar strukturiert und mit nachvollziehbaren Beispielen unterlegt sein. Bitte planen Sie aktivierende Elemente (Diskussionsfragen, kurze Demos) ein.
->
-> Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](../readme.md).
->
-> </details>
+# Seminaristischer Unterricht: Vortragsthemen Kurzvortrag/Fachvortrag
 
 ## Kurzvortrag "PL Feature" (ca. 20 Minuten, DE)
 
@@ -23,7 +6,7 @@ Ziel ist die Einführung in ein ausgewähltes Programmiersprachen-Thema. Das vor
 
 Alle Teams haben die Literatur zu den Kurzvorträgen zumindest grob überflogen. Das vortragende Team leitet die an den Vortrag anschließende Diskussion und bereitet 2-4 gezielte Diskussionsfragen zur Aktivierung der Zuhörenden vor.
 
-### Verfügbare Themen:
+### Verfügbare Themen
 
 1.  Object-Oriented Paradigm (OOP) (([Gabbrielli und Martini 2023](#ref-Gabbrielli2023)), Kap. 10)
 2.  Functional Programming Paradigm (FP) (([Gabbrielli und Martini 2023](#ref-Gabbrielli2023)), Kap. 11)
@@ -34,25 +17,19 @@ Alle Teams haben die Literatur zu den Kurzvorträgen zumindest grob überflogen.
     -   [Why Dependent Types Matter](https://people.cs.nott.ac.uk/psztxa/publ/ydtm.pdf)
     -   [IDRIS ---: systems programming meets full dependent types](https://dl.acm.org/doi/10.1145/1929529.1929536)
 
-### Weitere mögliche Themen (nach Absprache):
+### Weitere mögliche Themen (nach Absprache)
 
 -   Algebraische Effekte und Effekt-Systeme (z.B. Koka), Exceptions vs. Effekte
 -   Pattern Matching und Algebraische Datentypen (OCaml/F#/Scala)
 -   Metaprogrammierung und Makros (Lisp/Clojure, Rust macro_rules! und proc-macros)
 -   Gradual Typing (TypeScript, Sorbet), Typklassen und Traits (Haskell/Rust)
 
-### Hinweise:
+### Hinweise
 
 -   *Jede Person* bereitet sich vorab vor; das präsentierende Team moderiert die Diskussion
 -   Ziel ist Transferfähigkeit: Nach dem Vortrag sollen Zuhörende weiterführende Literatur verstehen und Ideen praktisch erproben können
 -   Empfohlen: Zwei bis drei gut kuratierte Codebeispiele (live oder als Snippets), Vorbereitung von einigen Diskussionsfragen
 -   Vortragssprache ist Deutsch
-
-### Empfohlene weitere Referenzen (allgemein):
-
--   Gabbrielli und Martini ([2023](#ref-Gabbrielli2023))
--   Krishnamurthi ([2025](#ref-PLAI2025))
--   Thain ([2023](#ref-Thain2020))
 
 ## Fachvortrag "Compiler" (ca. 60 Minuten + 10 Minuten Q&A, DE)
 
@@ -60,7 +37,7 @@ Ziel ist die systematische Einführung in ein Compiler/VM-Thema mit genügend fa
 
 Bitte achten Sie auf eine präzise Begriffsbildung und den Einordnung in den Stand der Forschung/Praxis. Erstellen Sie eigene Beispiele und ggf. kurze Demos.
 
-### Verfügbare Themen:
+### Verfügbare Themen
 
 1.  Parsergeneratoren ([ANTLR](https://www.antlr.org/), [Tree-Sitter](http://tree-sitter.github.io/tree-sitter/), Flex & Bison, ...)
 2.  Fortgeschrittene Parsertechniken: LALR, PEG, Pratt, Parser-Combinators
@@ -83,7 +60,7 @@ Bitte achten Sie auf eine präzise Begriffsbildung und den Einordnung in den Sta
     -   [An Introduction to Interpreters and JIT Compilation](https://stefan-marr.de/2023/09/pliss-summer-school/)
     -   [AST vs. Bytecode: Interpreters in the Age of Meta-Compilation](https://dl.acm.org/doi/abs/10.1145/3622808)
 
-### Weitere mögliche Themen (nach Absprache):
+### Weitere mögliche Themen (nach Absprache)
 
 -   Fehlertolerantes Parsen und Diagnosequalität (Error Recovery, präzise Fehlermeldungen)
 -   Inkrementelle/Interaktive Compiler (IDE-Services, Language Server Protocol)
@@ -97,30 +74,9 @@ Bitte achten Sie auf eine präzise Begriffsbildung und den Einordnung in den Sta
     -   [Tiny Unified Runner N' Tester (Turnt)](https://github.com/cucapra/turnt)
     -   [Testing Language Implementations](https://youtu.be/ZJUk8_k1HbY?si=Mis0l6M07vbI8Rqx)
 
-### Empfohlene weitere Referenzen (allgemein):
-
--   Nystrom ([2021](#ref-Nystrom2021))
--   Torczon und Cooper ([2012](#ref-Torczon2012))
--   Thain ([2023](#ref-Thain2020))
--   Pierce ([2002](#ref-Pierce2002))
+### Hinweise
 
 Planen Sie im Anschluss an den 60-minütigen Vortrag ca. 10 Minuten Q&A und Diskussion ein.
-
-## Zwei Vorträge zum Projekt
-
-1.  Projektvortrag 1: **Edmonton-/Minden-Meeting (Termin 2)**
-    -   Dauer: ca. 40-45 Minuten pro Team, parallel in Breakout-Gruppen
-    -   Ziel: Vorstellung von Idee, Problemstellung, Architektur/Design, MVP/Prototyp-Status, Risiken und Evaluationsplan
-    -   Publikum: Kanadische Studierende; bitte auf klare "Problem-Ansatz-Nutzen"-Struktur achten
-    -   Sprache: **Englisch**
-
-<!-- -->
-
-2.  Projektvortrag 2: **Abschlusspräsentation**
-    -   Dauer: ca. 30 Minuten pro Team (Vorlesungs- und Praktikumsslot)
-    -   Ziel: Ergebnisse, Demos, Evaluation, Lessons Learned, Ausblick
-
-Siehe auch [Beschreibung zum Projekt](./project.md). Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](../readme.md).
 
 ------------------------------------------------------------------------
 
@@ -137,33 +93,9 @@ Siehe auch [Beschreibung zum Projekt](./project.md). Die zeitliche Verteilung en
 >
 > </div>
 >
-> <div id="ref-PLAI2025" class="csl-entry">
->
-> Krishnamurthi, S. 2025. „Programming Languages: Application and Interpretation". <https://www.plai.org/>.
->
-> </div>
->
 > <div id="ref-Nystrom2021" class="csl-entry">
 >
 > Nystrom, R. 2021. *Crafting Interpreters*. Genever Benning. <https://github.com/munificent/craftinginterpreters>.
->
-> </div>
->
-> <div id="ref-Pierce2002" class="csl-entry">
->
-> Pierce, B. C. 2002. *Types and Programming Languages*. MIT Press.
->
-> </div>
->
-> <div id="ref-Thain2020" class="csl-entry">
->
-> Thain, D. 2023. *Introduction to Compilers and Language Design*. <https://www3.nd.edu/~dthain/compilerbook/>.
->
-> </div>
->
-> <div id="ref-Torczon2012" class="csl-entry">
->
-> Torczon, L., und K. Cooper. 2012. *Engineering a Compiler*. Morgan Kaufmann. <https://learning.oreilly.com/library/view/engineering-a-compiler/9780080916613/>.
 >
 > </div>
 >
@@ -177,4 +109,4 @@ Siehe auch [Beschreibung zum Projekt](./project.md). Die zeitliche Verteilung en
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 25ce7e1 2026-10-01 orga: move all deadlines to orga/readme as single source of truth<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 976dd17 2026-10-02 orga: move all orga related info to readme (single source of truth)<br></sub></sup></p></blockquote>

@@ -77,7 +77,7 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 
 ##### **Studienleistung**: "Portfolio" - Kriterien je Person:
 
-1.  **Projekt-Pitch** (Vorstellung der Konzepte für das DSL-Projekt): Freitag, 20.11., ca. 20 Minuten (pro Team); **Exposé** bis zum 19.11.
+1.  **Projekt-Pitch** (Vorstellung der Konzepte für das DSL-Projekt): Freitag, 20.11., ca. 20 Minuten (pro Team); **Exposé** (s.u.) bis zum 19.11.
 2.  Teilnahme an **mind. zwei Edmonton/Minden-Terminen** mit aktiver Beteiligung, pro Team ist am zweiten Treffen ein Vortrag zum DSL-Projekt ca. 45 Minuten zu halten (Englisch!)
     -   Termin 1: Dienstag, 03.11., 17:00 - 18:00 Uhr (online)
     -   **Termin 2**: Montag, 30.11., 17:00 - 18:00 Uhr (online): **Vorstellung der DSL-Projekte** (Projektvortrag 1), ca. 40-45 Minuten pro Team (**Englisch**)
@@ -100,6 +100,22 @@ Sie können die Prüfung in der ersten oder in der zweiten Prüfungsphase ablege
 -   Ein Team umfasst 3 Personen
 -   Das Lerntagebuch ist individuell zu erstellen und abzugeben
 -   "Aktive Beteiligung" umfasst Anwesenheit und sachbezogene Beiträge; Anwesenheit/Beteiligung werden dokumentiert
+
+<!-- -->
+
+-   **Exposé** (pro Team)
+
+    -   Umfang: 150-400 Wörter
+    -   Struktur:
+        1.  Was wollt ihr machen?
+        2.  Warum ist das spannend?
+        3.  Wie werdet ihr das umsetzen?
+        4.  Wie könnt ihr euren Erfolg empirisch bewerten?
+        5.  Wer ist alles im Team?
+
+    Bitte beschreiben Sie die einzelnen Punkte so ausführlich wie nötig, um nachvollziehbar zu sein.
+
+    Abgabe als PDF im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006), spätestens einen Tag vor der internen Projektvorstellung.
 
 <!-- -->
 
@@ -5165,24 +5181,7 @@ Hier finden Sie die Übungsblätter.
 
 <a id="id-a73470af5aac0f6102a1f24e33280ebad2acc29d"></a>
 
-### Seminaristischer Unterricht: Vorträge zu Programmiersprachen und Compilerbau
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> In diesem Semester sind mehrere Vorträge Teil der Prüfungsleistung. Pro Team sind zu halten:
->
-> -   ein **Kurzvortrag** (ca. 20 Minuten) zu einem Thema aus dem Bereich Programmiersprachen/-konzepte,
-> -   ein **Fachvortrag** (ca. 60 Minuten) zu einem Compiler-Thema,
-> -   zwei **Projektvorträge** (einmal im Edmonton-/Minden-Meeting, einmal zum Semesterende).
->
-> Alle Vorträge richten sich an Master-Studierende und sollen fachlich fundiert, klar strukturiert und mit nachvollziehbaren Beispielen unterlegt sein. Bitte planen Sie aktivierende Elemente (Diskussionsfragen, kurze Demos) ein.
->
-> Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](#id-275d783e298228506068436512433d343feb52aa).
->
-> </details>
+### Seminaristischer Unterricht: Vortragsthemen Kurzvortrag/Fachvortrag
 
 #### Kurzvortrag "PL Feature" (ca. 20 Minuten, DE)
 
@@ -5190,7 +5189,7 @@ Ziel ist die Einführung in ein ausgewähltes Programmiersprachen-Thema. Das vor
 
 Alle Teams haben die Literatur zu den Kurzvorträgen zumindest grob überflogen. Das vortragende Team leitet die an den Vortrag anschließende Diskussion und bereitet 2-4 gezielte Diskussionsfragen zur Aktivierung der Zuhörenden vor.
 
-##### Verfügbare Themen:
+##### Verfügbare Themen
 
 1.  Object-Oriented Paradigm (OOP) (([Gabbrielli und Martini 2023](#ref-Gabbrielli2023)), Kap. 10)
 2.  Functional Programming Paradigm (FP) (([Gabbrielli und Martini 2023](#ref-Gabbrielli2023)), Kap. 11)
@@ -5201,25 +5200,19 @@ Alle Teams haben die Literatur zu den Kurzvorträgen zumindest grob überflogen.
     -   [Why Dependent Types Matter](https://people.cs.nott.ac.uk/psztxa/publ/ydtm.pdf)
     -   [IDRIS ---: systems programming meets full dependent types](https://dl.acm.org/doi/10.1145/1929529.1929536)
 
-##### Weitere mögliche Themen (nach Absprache):
+##### Weitere mögliche Themen (nach Absprache)
 
 -   Algebraische Effekte und Effekt-Systeme (z.B. Koka), Exceptions vs. Effekte
 -   Pattern Matching und Algebraische Datentypen (OCaml/F#/Scala)
 -   Metaprogrammierung und Makros (Lisp/Clojure, Rust macro_rules! und proc-macros)
 -   Gradual Typing (TypeScript, Sorbet), Typklassen und Traits (Haskell/Rust)
 
-##### Hinweise:
+##### Hinweise
 
 -   *Jede Person* bereitet sich vorab vor; das präsentierende Team moderiert die Diskussion
 -   Ziel ist Transferfähigkeit: Nach dem Vortrag sollen Zuhörende weiterführende Literatur verstehen und Ideen praktisch erproben können
 -   Empfohlen: Zwei bis drei gut kuratierte Codebeispiele (live oder als Snippets), Vorbereitung von einigen Diskussionsfragen
 -   Vortragssprache ist Deutsch
-
-##### Empfohlene weitere Referenzen (allgemein):
-
--   Gabbrielli und Martini ([2023](#ref-Gabbrielli2023))
--   Krishnamurthi ([2025](#ref-PLAI2025))
--   Thain ([2023](#ref-Thain2020))
 
 #### Fachvortrag "Compiler" (ca. 60 Minuten + 10 Minuten Q&A, DE)
 
@@ -5227,7 +5220,7 @@ Ziel ist die systematische Einführung in ein Compiler/VM-Thema mit genügend fa
 
 Bitte achten Sie auf eine präzise Begriffsbildung und den Einordnung in den Stand der Forschung/Praxis. Erstellen Sie eigene Beispiele und ggf. kurze Demos.
 
-##### Verfügbare Themen:
+##### Verfügbare Themen
 
 1.  Parsergeneratoren ([ANTLR](https://www.antlr.org/), [Tree-Sitter](http://tree-sitter.github.io/tree-sitter/), Flex & Bison, ...)
 2.  Fortgeschrittene Parsertechniken: LALR, PEG, Pratt, Parser-Combinators
@@ -5250,7 +5243,7 @@ Bitte achten Sie auf eine präzise Begriffsbildung und den Einordnung in den Sta
     -   [An Introduction to Interpreters and JIT Compilation](https://stefan-marr.de/2023/09/pliss-summer-school/)
     -   [AST vs. Bytecode: Interpreters in the Age of Meta-Compilation](https://dl.acm.org/doi/abs/10.1145/3622808)
 
-##### Weitere mögliche Themen (nach Absprache):
+##### Weitere mögliche Themen (nach Absprache)
 
 -   Fehlertolerantes Parsen und Diagnosequalität (Error Recovery, präzise Fehlermeldungen)
 -   Inkrementelle/Interaktive Compiler (IDE-Services, Language Server Protocol)
@@ -5264,34 +5257,13 @@ Bitte achten Sie auf eine präzise Begriffsbildung und den Einordnung in den Sta
     -   [Tiny Unified Runner N' Tester (Turnt)](https://github.com/cucapra/turnt)
     -   [Testing Language Implementations](https://youtu.be/ZJUk8_k1HbY?si=Mis0l6M07vbI8Rqx)
 
-##### Empfohlene weitere Referenzen (allgemein):
-
--   Nystrom ([2021](#ref-Nystrom2021))
--   Torczon und Cooper ([2012](#ref-Torczon2012))
--   Thain ([2023](#ref-Thain2020))
--   Pierce ([2002](#ref-Pierce2002))
+##### Hinweise
 
 Planen Sie im Anschluss an den 60-minütigen Vortrag ca. 10 Minuten Q&A und Diskussion ein.
 
-#### Zwei Vorträge zum Projekt
-
-1.  Projektvortrag 1: **Edmonton-/Minden-Meeting (Termin 2)**
-    -   Dauer: ca. 40-45 Minuten pro Team, parallel in Breakout-Gruppen
-    -   Ziel: Vorstellung von Idee, Problemstellung, Architektur/Design, MVP/Prototyp-Status, Risiken und Evaluationsplan
-    -   Publikum: Kanadische Studierende; bitte auf klare "Problem-Ansatz-Nutzen"-Struktur achten
-    -   Sprache: **Englisch**
-
-<!-- -->
-
-2.  Projektvortrag 2: **Abschlusspräsentation**
-    -   Dauer: ca. 30 Minuten pro Team (Vorlesungs- und Praktikumsslot)
-    -   Ziel: Ergebnisse, Demos, Evaluation, Lessons Learned, Ausblick
-
-Siehe auch [Beschreibung zum Projekt](#id-441c6299f10fc33707a0080c5fef11dc5a486466). Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](#id-275d783e298228506068436512433d343feb52aa).
-
 <a id="id-441c6299f10fc33707a0080c5fef11dc5a486466"></a>
 
-### MIF 1.5 Kurs-Projekt: Sprachen und Compiler
+### DSL-Projekt: Sprachen und Compiler
 
 #### Ziel und Rahmen
 
@@ -5397,34 +5369,6 @@ Potentiell interessante Literatur im Bereich DSL:
 
 Neben passenden Konzepten soll auch eine geeignete Umsetzung/Implementierung erstellt und empirisch untersucht werden.
 
-#### Exposé (pro Team, Kurs-GitHub)
-
--   Umfang: 150--400 Wörter
--   Struktur:
-    1.  Was wollt ihr machen?
-    2.  Warum ist das spannend?
-    3.  Wie werdet ihr das umsetzen?
-    4.  Wie könnt ihr euren Erfolg empirisch bewerten?
-    5.  Wer ist alles im Team?
-
-Bitte beschreiben Sie die einzelnen Punkte so ausführlich wie nötig, um nachvollziehbar zu sein.
-
-Abgabe als PDF im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006), spätestens einen Tag vor der internen Projektvorstellung.
-
-#### Organisation
-
-##### Teams
-
-Die Bearbeitung erfolgt in 3er-Teams.
-
-##### Fristen
-
--   **Projekt-Pitch** (Praktikumsslot): Vorstellung der Konzepte für das DSL-Projekt; pro Team eine Präsentation von ca. 20 Minuten; das **Exposé** soll mind. einen Tag vorher im ILIAS eingestellt sein =\> Generalprobe für den [Talk](#id-a73470af5aac0f6102a1f24e33280ebad2acc29d) im Edmonton-/Minden-Meeting
--   **Edmonton/Minden**: Vorstellung Ihres Projekts auf dem 2. Edmonton-Meeting (pro Team eine **englisch-sprachige** Präsentation von ca. 40-45 Minuten plus Diskussion in Breakout-Gruppen)
--   **Abschlusspräsentation** (Vorlesungs- und Praktikumsslot): pro Team eine Präsentation von ca. 30 Minuten zum DSL-Projekt
-
-Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](#id-275d783e298228506068436512433d343feb52aa).
-
 ------------------------------------------------------------------------
 
 > [!NOTE]
@@ -5470,12 +5414,6 @@ Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](#id-275d783e29822850
 >
 > </div>
 >
-> <div id="ref-PLAI2025" class="csl-entry">
->
-> Krishnamurthi, S. 2025. „Programming Languages: Application and Interpretation". <https://www.plai.org/>.
->
-> </div>
->
 > <div id="ref-Kunert2018" class="csl-entry">
 >
 > Kunert, A. 2018. „LR(k)-Analyse für Pragmatiker". <http://amor.cms.hu-berlin.de/~kunert/papers/lr-analyse/lr.pdf>.
@@ -5518,18 +5456,6 @@ Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](#id-275d783e29822850
 >
 > </div>
 >
-> <div id="ref-Pierce2002" class="csl-entry">
->
-> Pierce, B. C. 2002. *Types and Programming Languages*. MIT Press.
->
-> </div>
->
-> <div id="ref-Thain2020" class="csl-entry">
->
-> Thain, D. 2023. *Introduction to Compilers and Language Design*. <https://www3.nd.edu/~dthain/compilerbook/>.
->
-> </div>
->
 > <div id="ref-Torczon2012" class="csl-entry">
 >
 > Torczon, L., und K. Cooper. 2012. *Engineering a Compiler*. Morgan Kaufmann. <https://learning.oreilly.com/library/view/engineering-a-compiler/9780080916613/>.
@@ -5562,12 +5488,12 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
 -   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
--   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
--   ["Language Prolog"](https://www.99-bottles-of-beer.net/language-prolog-965.html) by M@ on 99-bottles-of-beer.net
 -   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
--   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
 -   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
+-   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
+-   ["Language Prolog"](https://www.99-bottles-of-beer.net/language-prolog-965.html) by M@ on 99-bottles-of-beer.net
+-   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 25ce7e1 2026-10-01 orga: move all deadlines to orga/readme as single source of truth<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 976dd17 2026-10-02 orga: move all orga related info to readme (single source of truth)<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "jede" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.

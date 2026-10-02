@@ -73,7 +73,7 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 
 #### **Studienleistung**: "Portfolio" - Kriterien je Person:
 
-1.  **Projekt-Pitch** (Vorstellung der Konzepte für das DSL-Projekt): Freitag, 20.11., ca. 20 Minuten (pro Team); **Exposé** bis zum 19.11.
+1.  **Projekt-Pitch** (Vorstellung der Konzepte für das DSL-Projekt): Freitag, 20.11., ca. 20 Minuten (pro Team); **Exposé** (s.u.) bis zum 19.11.
 2.  Teilnahme an **mind. zwei Edmonton/Minden-Terminen** mit aktiver Beteiligung, pro Team ist am zweiten Treffen ein Vortrag zum DSL-Projekt ca. 45 Minuten zu halten (Englisch!)
     -   Termin 1: Dienstag, 03.11., 17:00 - 18:00 Uhr (online)
     -   **Termin 2**: Montag, 30.11., 17:00 - 18:00 Uhr (online): **Vorstellung der DSL-Projekte** (Projektvortrag 1), ca. 40-45 Minuten pro Team (**Englisch**)
@@ -96,6 +96,22 @@ Sie können die Prüfung in der ersten oder in der zweiten Prüfungsphase ablege
 -   Ein Team umfasst 3 Personen
 -   Das Lerntagebuch ist individuell zu erstellen und abzugeben
 -   "Aktive Beteiligung" umfasst Anwesenheit und sachbezogene Beiträge; Anwesenheit/Beteiligung werden dokumentiert
+
+<!-- -->
+
+-   **Exposé** (pro Team)
+
+    -   Umfang: 150-400 Wörter
+    -   Struktur:
+        1.  Was wollt ihr machen?
+        2.  Warum ist das spannend?
+        3.  Wie werdet ihr das umsetzen?
+        4.  Wie könnt ihr euren Erfolg empirisch bewerten?
+        5.  Wer ist alles im Team?
+
+    Bitte beschreiben Sie die einzelnen Punkte so ausführlich wie nötig, um nachvollziehbar zu sein.
+
+    Abgabe als PDF im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006), spätestens einen Tag vor der internen Projektvorstellung.
 
 <!-- -->
 
@@ -137,4 +153,4 @@ Wir freuen uns, auch in diesem Semester wieder drei gemeinsame Sitzungen für be
 
 Unless otherwise noted, [this work](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master) by [BC George](https://github.com/bcg7), [Carsten Gips](https://github.com/cagix) and [contributors](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/graphs/contributors) is licensed under [CC BY-SA 4.0](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/LICENSE.md). See the [credits](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/CREDITS.md) for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 25ce7e1 2026-10-01 orga: move all deadlines to orga/readme as single source of truth<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 976dd17 2026-10-02 orga: move all orga related info to readme (single source of truth)<br></sub></sup></p></blockquote>

@@ -1,4 +1,4 @@
-# MIF 1.5 Kurs-Projekt: Sprachen und Compiler
+# DSL-Projekt: Sprachen und Compiler
 
 ## Ziel und Rahmen
 
@@ -104,34 +104,6 @@ Potentiell interessante Literatur im Bereich DSL:
 
 Neben passenden Konzepten soll auch eine geeignete Umsetzung/Implementierung erstellt und empirisch untersucht werden.
 
-## Exposé (pro Team, Kurs-GitHub)
-
--   Umfang: 150--400 Wörter
--   Struktur:
-    1.  Was wollt ihr machen?
-    2.  Warum ist das spannend?
-    3.  Wie werdet ihr das umsetzen?
-    4.  Wie könnt ihr euren Erfolg empirisch bewerten?
-    5.  Wer ist alles im Team?
-
-Bitte beschreiben Sie die einzelnen Punkte so ausführlich wie nötig, um nachvollziehbar zu sein.
-
-Abgabe als PDF im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006), spätestens einen Tag vor der internen Projektvorstellung.
-
-## Organisation
-
-### Teams
-
-Die Bearbeitung erfolgt in 3er-Teams.
-
-### Fristen
-
--   **Projekt-Pitch** (Praktikumsslot): Vorstellung der Konzepte für das DSL-Projekt; pro Team eine Präsentation von ca. 20 Minuten; das **Exposé** soll mind. einen Tag vorher im ILIAS eingestellt sein =\> Generalprobe für den [Talk](./talk.md) im Edmonton-/Minden-Meeting
--   **Edmonton/Minden**: Vorstellung Ihres Projekts auf dem 2. Edmonton-Meeting (pro Team eine **englisch-sprachige** Präsentation von ca. 40-45 Minuten plus Diskussion in Breakout-Gruppen)
--   **Abschlusspräsentation** (Vorlesungs- und Praktikumsslot): pro Team eine Präsentation von ca. 30 Minuten zum DSL-Projekt
-
-Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](../readme.md).
-
 ------------------------------------------------------------------------
 
 > [!NOTE]
@@ -169,6 +141,6 @@ Die zeitliche Verteilung entnehmen Sie bitte dem [Fahrplan](../readme.md).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 25ce7e1 2026-10-01 orga: move all deadlines to orga/readme as single source of truth<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 976dd17 2026-10-02 orga: move all orga related info to readme (single source of truth)<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "jede" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.

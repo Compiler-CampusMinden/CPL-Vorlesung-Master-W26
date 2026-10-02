@@ -71,7 +71,9 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 
 **Mündliche Prüfung plus Studienleistung (Portfolio)**, 10 ECTS
 
-#### **Studienleistung**: "Portfolio" - Kriterien je Person:
+#### **Studienleistung**: "Portfolio"
+
+Die Studienleistung ist eine unbenotete Leistung und setzt sich aus mehreren Komponenten zusammen:
 
 1.  **Projekt-Pitch** (Vorstellung der Konzepte für das DSL-Projekt): Freitag, 20.11., ca. 20 Minuten (pro Team); **Exposé** (s.u.) bis zum 19.11.
 2.  Teilnahme an **mind. zwei Edmonton/Minden-Terminen** mit aktiver Beteiligung, pro Team ist am zweiten Treffen ein Vortrag zum DSL-Projekt ca. 45 Minuten zu halten (Englisch!)
@@ -88,14 +90,17 @@ Das Exposé, die Slides (Edmonton-Talk, Kurzvortrag, Fachvortrag, Abschlusspräs
 
 #### **Gesamtnote**: Mündliche Prüfung (einzeln, ca. 45 Minuten)
 
+Die Modul-Note ergibt sich aus der Leistung in der mündlichen Prüfung.
+
 Sie können die Prüfung in der ersten oder in der zweiten Prüfungsphase ablegen. Die mündliche Prüfung wird über Zoom durchgeführt und dauert ca. 45 Minuten.
 
 #### Hinweise
 
--   Die Bearbeitung der Leistungen erfolgt im Team
--   Ein Team umfasst 3 Personen
--   Das Lerntagebuch ist individuell zu erstellen und abzugeben
--   "Aktive Beteiligung" umfasst Anwesenheit und sachbezogene Beiträge; Anwesenheit/Beteiligung werden dokumentiert
+-   Die Bearbeitung der Leistungen erfolgt im Team.
+-   Ein Team umfasst 3 Personen.
+-   Es gibt keine Aufgabenblätter. Stattdessen haben wir verschiedene Vorträge und das DSL-Projekt.
+-   Das Lerntagebuch ist individuell zu erstellen und abzugeben.
+-   "Aktive Beteiligung" umfasst Anwesenheit und sachbezogene Beiträge; Anwesenheit/Beteiligung werden dokumentiert.
 
 <!-- -->
 
@@ -153,4 +158,4 @@ Wir freuen uns, auch in diesem Semester wieder drei gemeinsame Sitzungen für be
 
 Unless otherwise noted, [this work](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master) by [BC George](https://github.com/bcg7), [Carsten Gips](https://github.com/cagix) and [contributors](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/graphs/contributors) is licensed under [CC BY-SA 4.0](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/LICENSE.md). See the [credits](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/CREDITS.md) for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 976dd17 2026-10-02 orga: move all orga related info to readme (single source of truth)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e0b0bef 2026-10-02 orga: amend exams<br></sub></sup></p></blockquote>

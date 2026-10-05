@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Nested Scopes](https://youtu.be/CdM1gvsi6P0)
+> Vorlesung \[[YT](https://youtu.be/W2BJqSuGh3g)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-symbtab1-nested-scopes/0b1b9519ca20436309120bc6fb8ce84c/254)\]
 >
 > </details>
 
@@ -265,4 +265,4 @@ Möglicherweise sind die Symboltabellen nach der Identifizierungsphase der Eleme
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 64e8808 2026-09-04 reformat markdown<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6d518d5 2026-10-05 symboltabellen scopes: rework screencasts<br></sub></sup></p></blockquote>

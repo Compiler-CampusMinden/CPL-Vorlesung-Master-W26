@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Anwendungen](https://youtu.be/gt9ROh-qRIU)
+> Vorlesung \[[YT](https://youtu.be/msqlU1MJgTw)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-anwendungen-compiler/6e4dbb655d0cff20ea2544b7d96e9370/254)\]
 >
 > </details>
 
@@ -285,4 +285,4 @@ Hier noch ein Framework, welches auf das Erstellen von DSL spezialisiert ist:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d796fab 2025-08-19 lecture: rework outcomes (Intro/Applications)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 34340a5 2026-10-05 intro applications: rework screencasts<br></sub></sup></p></blockquote>

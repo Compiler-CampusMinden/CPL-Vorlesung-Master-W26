@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Symboltabellen (Intro)](https://youtu.be/5637iNH0wWk)
+> Vorlesung \[[YT](https://youtu.be/ZuTl8cuG0BA)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-symbtab0-berblick-symboltabellen/a68a24ee485352900f89916ebf20f5d1/254)\]
 >
 > </details>
 
@@ -293,4 +293,4 @@ Beispielsweise können Werte von Ausdrücken oft erst zur Laufzeit bestimmt werd
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 64e8808 2026-09-04 reformat markdown<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 801b8c0 2026-10-05 symboltabellen intro: rework screencasts<br></sub></sup></p></blockquote>

@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Strukturen und Klassen](https://youtu.be/-w9ljeFGq3k)
+> Vorlesung \[[YT](https://youtu.be/GQj76LlTAzY)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-symbtab3-strukturen-und-klassen/22592c83b6275e326ba611778cf39916/254)\]
 >
 > </details>
 
@@ -266,4 +266,4 @@ Hier würde `wuppie` als Symbol im globalen Scope definiert werden. Beim Verarbe
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 64e8808 2026-09-04 reformat markdown<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 29ab7c2 2026-10-05 symboltabellen classes: rework screencasts<br></sub></sup></p></blockquote>

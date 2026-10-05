@@ -196,7 +196,7 @@ Was ist ein Compiler? Welche Bausteine lassen sich identifizieren, welche Aufgab
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Überblick](https://youtu.be/zpELDC_3G7Q)
+> Vorlesung \[[YT](https://youtu.be/bFFvdMDvhYQ)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-struktur-eines-compilers/72b12f8f1e84ea7980179adb5d067ac2/254)\]
 >
 > </details>
 
@@ -512,7 +512,7 @@ Sie sollten diese beiden Paper unbedingt als Einstieg in das Modul lesen:
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Programmiersprachen](https://youtu.be/prsc8cf4cJ8)
+> Vorlesung \[[YT](https://youtu.be/HQfAV_TvhYc)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-bandbreite-der-programmiersprachen/5665e9e636e9c84c6ce5dd8de78340c1/254)\]
 >
 > </details>
 
@@ -770,7 +770,7 @@ Die Sprache ähnelt stark anderen modernen Sprachen und ist gut geeignet, um an 
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Anwendungen](https://youtu.be/gt9ROh-qRIU)
+> Vorlesung \[[YT](https://youtu.be/msqlU1MJgTw)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-anwendungen-compiler/6e4dbb655d0cff20ea2544b7d96e9370/254)\]
 >
 > </details>
 
@@ -1248,7 +1248,7 @@ Wir schreiben: $\alpha A \beta \Rightarrow \alpha \gamma \beta$ ($\alpha A \beta
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Handcodierte Lexer](https://youtu.be/N0WJQ4UkXkM)
+> Vorlesung \[[YT](https://youtu.be/uUVEtKqqkqQ)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-lexer-handcodierte-implementierung/7451fe5237190e44817c3243b13b1ac7/254)\]
 >
 > </details>
 
@@ -1390,7 +1390,7 @@ Für das Roll-Back wird der `start`-Pointer einfach dekrementiert (und mit einer
 Jedes Token hat i.d.R. ein Attribut, in dem das Lexem gespeichert wird. Bei eindeutigen Token (etwa bei eigenen Token je Schlüsselwort oder bei den Interpunktions-Token) kann man sich das Attribut auch sparen, da das Lexem durch den Tokennamen eindeutig rekonstruierbar ist.
 
 | Token | Beschreibung | Beispiel-Lexeme |
-|:--------------|:-------------------------------------|:------------------|
+|:---------------|:------------------------------------|:------------------|
 | `if` | Zeichen `i` und `f` | `if` |
 | `relop` | `<` oder `>` oder `<=` oder `>=` oder `==` oder `!=` | `<`, `<=` |
 | `id` | Buchstabe, gefolgt von Buchstaben oder Ziffern | `pi`, `count`, `x3` |
@@ -1899,7 +1899,7 @@ Rekursive Programmierung bedeutet, dass das Laufzeitsystem einen Stack benutzt (
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL LL-Parser selbst implementiert](https://youtu.be/3djLtMtW82k)
+> Vorlesung \[[YT](https://youtu.be/p8yFdXhaDyg)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-ll-parser-selbst-implementiert/6928d27b9f8d43287b445766dd30a3ba/254)\]
 >
 > </details>
 
@@ -2479,7 +2479,7 @@ Da hier der Kontext der Symbole eine Rolle spielt, wird diese Phase oft auch "Co
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Symboltabellen (Intro)](https://youtu.be/5637iNH0wWk)
+> Vorlesung \[[YT](https://youtu.be/ZuTl8cuG0BA)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-symbtab0-berblick-symboltabellen/a68a24ee485352900f89916ebf20f5d1/254)\]
 >
 > </details>
 
@@ -2739,7 +2739,7 @@ Beispielsweise können Werte von Ausdrücken oft erst zur Laufzeit bestimmt werd
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Nested Scopes](https://youtu.be/CdM1gvsi6P0)
+> Vorlesung \[[YT](https://youtu.be/W2BJqSuGh3g)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-symbtab1-nested-scopes/0b1b9519ca20436309120bc6fb8ce84c/254)\]
 >
 > </details>
 
@@ -2971,7 +2971,7 @@ Möglicherweise sind die Symboltabellen nach der Identifizierungsphase der Eleme
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Funktionen](https://youtu.be/yk2x6WGhgVg)
+> Vorlesung \[[YT](https://youtu.be/2eVsgOwfoXw)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-symbtab2-funktionen/47fb53a87c68a0973f40876c83e99ede/254)\]
 >
 > </details>
 
@@ -3156,7 +3156,7 @@ Um später im Interpreter eine Funktion tatsächlich auswerten zu können, muss 
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Strukturen und Klassen](https://youtu.be/-w9ljeFGq3k)
+> Vorlesung \[[YT](https://youtu.be/GQj76LlTAzY)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-symbtab3-strukturen-und-klassen/22592c83b6275e326ba611778cf39916/254)\]
 >
 > </details>
 
@@ -3814,7 +3814,7 @@ Ein Interpreter erzeugt keinen Code, sondern führt Source-Code (interaktiv) aus
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL AST-basierte Interpreter (Basics)](https://youtu.be/lupQ0f3Tp7A)
+> Vorlesung \[[YT](https://youtu.be/zwD1QolJa3M)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-ast-basierte-interpreter1-basics/c09c15d33e293a6430746ac60f57585b/254)\]
 >
 > </details>
 
@@ -4103,7 +4103,7 @@ Beim Interpretieren von Blöcken muss man einfach nur eine weitere Verschachtelu
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL AST-basierte Interpreter (Funktionen, Klassen)](https://youtu.be/LTqk7ifB-V0)
+> Vorlesung \[[YT](https://youtu.be/LFOwo6tclC8)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-ast-basierte-interpreter2-funktionen-und-klassen/6121693c3874442ee84a0a4bf0b5c455/254)\]
 >
 > </details>
 
@@ -4415,7 +4415,7 @@ In Python wird das in der Methodensignatur sichtbar: Der erste Parameter ist ein
 > <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb.png" width="60%" /></picture></p>
 >
 > |  | Phase | Ergebnis |
-> |:--------|:----------------------|:---------------------------------------|
+> |:----------|:----------------------|:-------------------------------------|
 > | 0 | Lexer/Parser | AST |
 > | 1 | Semantische Analyse, Def-Phase | Symboltabelle (Definitionen), Verknüpfung Scopes mit AST-Knoten |
 > | 2 | Semantische Analyse, Ref-Phase | Prüfung auf nicht definierte Referenzen |
@@ -4436,7 +4436,7 @@ In Python wird das in der Methodensignatur sichtbar: Der erste Parameter ist ein
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Syntaxgesteuerte Interpreter](https://youtu.be/s5wvvoYsxe4)
+> Vorlesung \[[YT](https://youtu.be/7G_oDNZmZx8)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-syntaxgesteuerte-interpreter/593c59c84cbb2fe3bf8878b0a28b35fa/254)\]
 >
 > </details>
 
@@ -5491,14 +5491,14 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
 -   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
--   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
 -   ["Language Prolog"](https://www.99-bottles-of-beer.net/language-prolog-965.html) by M@ on 99-bottles-of-beer.net
--   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
 -   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
+-   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
+-   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
+-   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
 -   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e0b0bef 2026-10-02 orga: amend exams<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6b868a2 2026-10-05 interpreter syntaxdriven: rework screencasts<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "jede" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.

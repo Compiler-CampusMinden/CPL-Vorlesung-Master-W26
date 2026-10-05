@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Funktionen](https://youtu.be/yk2x6WGhgVg)
+> Vorlesung \[[YT](https://youtu.be/2eVsgOwfoXw)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-symbtab2-funktionen/47fb53a87c68a0973f40876c83e99ede/254)\]
 >
 > </details>
 
@@ -218,4 +218,4 @@ Um später im Interpreter eine Funktion tatsächlich auswerten zu können, muss 
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 64e8808 2026-09-04 reformat markdown<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ab3d3ed 2026-10-05 symboltabellen functions: rework screencasts<br></sub></sup></p></blockquote>

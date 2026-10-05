@@ -26,7 +26,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL LL-Parser selbst implementiert](https://youtu.be/3djLtMtW82k)
+> Vorlesung \[[YT](https://youtu.be/p8yFdXhaDyg)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-ll-parser-selbst-implementiert/6928d27b9f8d43287b445766dd30a3ba/254)\]
 >
 > </details>
 
@@ -380,4 +380,4 @@ Quelle: Eigener Code basierend auf einer Idee nach ([Parr 2010](#ref-Parr2010), 
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 64e8808 2026-09-04 reformat markdown<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0eb8b34 2026-10-05 rd-parser: rework screencasts<br></sub></sup></p></blockquote>

@@ -18,7 +18,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL AST-basierte Interpreter (Funktionen, Klassen)](https://youtu.be/LTqk7ifB-V0)
+> Vorlesung \[[YT](https://youtu.be/LFOwo6tclC8)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-ast-basierte-interpreter2-funktionen-und-klassen/6121693c3874442ee84a0a4bf0b5c455/254)\]
 >
 > </details>
 
@@ -359,4 +359,4 @@ In Python wird das in der Methodensignatur sichtbar: Der erste Parameter ist ein
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 64e8808 2026-09-04 reformat markdown<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 476f69f 2026-10-05 interpreter ast2: rework screencasts<br></sub></sup></p></blockquote>

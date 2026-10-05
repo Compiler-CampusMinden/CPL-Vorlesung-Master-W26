@@ -10,7 +10,7 @@
 > <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/lecture/06-interpretation/images/architektur_cb.png" width="60%" /></picture></p>
 >
 > |  | Phase | Ergebnis |
-> |:-------|:----------------------|:----------------------------------------|
+> |:---------|:----------------------|:--------------------------------------|
 > | 0 | Lexer/Parser | AST |
 > | 1 | Semantische Analyse, Def-Phase | Symboltabelle (Definitionen), Verknüpfung Scopes mit AST-Knoten |
 > | 2 | Semantische Analyse, Ref-Phase | Prüfung auf nicht definierte Referenzen |
@@ -31,7 +31,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Syntaxgesteuerte Interpreter](https://youtu.be/s5wvvoYsxe4)
+> Vorlesung \[[YT](https://youtu.be/7G_oDNZmZx8)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-syntaxgesteuerte-interpreter/593c59c84cbb2fe3bf8878b0a28b35fa/254)\]
 >
 > </details>
 
@@ -368,4 +368,4 @@ public class TestMyVisitor {
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f1880ba 2026-09-04 readme: update edmonton<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6b868a2 2026-10-05 interpreter syntaxdriven: rework screencasts<br></sub></sup></p></blockquote>

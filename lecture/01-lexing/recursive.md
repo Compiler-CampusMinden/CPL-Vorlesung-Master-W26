@@ -22,7 +22,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Handcodierte Lexer](https://youtu.be/N0WJQ4UkXkM)
+> Vorlesung \[[YT](https://youtu.be/uUVEtKqqkqQ)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-lexer-handcodierte-implementierung/7451fe5237190e44817c3243b13b1ac7/254)\]
 >
 > </details>
 
@@ -164,7 +164,7 @@ Für das Roll-Back wird der `start`-Pointer einfach dekrementiert (und mit einer
 Jedes Token hat i.d.R. ein Attribut, in dem das Lexem gespeichert wird. Bei eindeutigen Token (etwa bei eigenen Token je Schlüsselwort oder bei den Interpunktions-Token) kann man sich das Attribut auch sparen, da das Lexem durch den Tokennamen eindeutig rekonstruierbar ist.
 
 | Token | Beschreibung | Beispiel-Lexeme |
-|:-------------|:--------------------------------------|:------------------|
+|:--------------|:-------------------------------------|:------------------|
 | `if` | Zeichen `i` und `f` | `if` |
 | `relop` | `<` oder `>` oder `<=` oder `>=` oder `==` oder `!=` | `<`, `<=` |
 | `id` | Buchstabe, gefolgt von Buchstaben oder Ziffern | `pi`, `count`, `x3` |
@@ -310,4 +310,4 @@ Optionen:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f1880ba 2026-09-04 readme: update edmonton<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> b370794 2026-10-05 lexer: rework screencasts<br></sub></sup></p></blockquote>

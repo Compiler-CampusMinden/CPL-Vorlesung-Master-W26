@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL AST-basierte Interpreter (Basics)](https://youtu.be/lupQ0f3Tp7A)
+> Vorlesung \[[YT](https://youtu.be/zwD1QolJa3M)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/cpl-ast-basierte-interpreter1-basics/c09c15d33e293a6430746ac60f57585b/254)\]
 >
 > </details>
 
@@ -324,4 +324,4 @@ Beim Interpretieren von Blöcken muss man einfach nur eine weitere Verschachtelu
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 369c447 2025-10-28 lecture: distinguish between expressions and instructions (Interpreter)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1baef05 2026-10-05 interpreter ast1: rework screencasts<br></sub></sup></p></blockquote>

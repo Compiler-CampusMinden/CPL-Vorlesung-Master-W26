@@ -47,7 +47,7 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 
 | Monat | Woche (Fr) | Seminaristischer Unterricht | Praktikum | Edmonton/Minden-Meetings |
 |---|:--|:---------------------------------|:------------------|:--------------|
-| Oktober | 16.10. | [Orga](./readme.md) \|\| [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) | \- |  |
+| Oktober | 16.10. | Orga \|\| [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) | \- |  |
 |  | 23.10. | [Reguläre Sprachen](lecture/01-lexing/regular.md) | [CFG](lecture/02-parsing/cfg.md) |  |
 |  | 30.10. | [LL-Parser (Theorie)](lecture/02-parsing/ll-parser.md) | [Lexer (Implementierung)](lecture/01-lexing/recursive.md) \| [LL-Parser (Implementierung)](lecture/02-parsing/ll-parser-impl.md) |  |
 | November | 06.11. | [LR-Parser](lecture/02-parsing/lr-parser.md) | **Vortrag**: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, ...) | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
@@ -158,4 +158,4 @@ Wir freuen uns, auch in diesem Semester wieder drei gemeinsame Sitzungen für be
 
 Unless otherwise noted, [this work](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master) by [BC George](https://github.com/bcg7), [Carsten Gips](https://github.com/cagix) and [contributors](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/graphs/contributors) is licensed under [CC BY-SA 4.0](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/LICENSE.md). See the [credits](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/CREDITS.md) for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e0b0bef 2026-10-02 orga: amend exams<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ad9d368 2026-10-06 orga: remove link to readme<br></sub></sup></p></blockquote>

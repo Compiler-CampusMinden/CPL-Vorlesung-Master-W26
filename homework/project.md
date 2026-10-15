@@ -37,11 +37,11 @@ Potentiell interessante Literatur im Bereich DSL:
 
 ## Projektanregungen
 
-### Escape-Rooms
+### Escape-Rooms mit MiniJava-Auswertung
 
 Parsen und Interpretieren von MiniJava-Code im [Dungeon](https://github.com/Dungeon-CampusMinden/Dungeon)
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/homework/images/DungeonCompiler_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/homework/images/DungeonCompiler.png" width="55%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/homework/images/dungeon-interpreter_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/homework/images/dungeon-interpreter.png" width="50%" /></picture></p>
 
 <details>
 
@@ -55,11 +55,11 @@ Dieses Projekt kann auch mit den nachfolgenden Projekt-Anregungen kombiniert wer
 
 </details>
 
-### Einsteiger-IDE
+### Einsteiger-IDE für Escape-Rooms
 
 Text-Widget mit LSP als Einsteiger-IDE
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/homework/images/DungeonCompiler_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/homework/images/DungeonCompiler.png" width="55%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/homework/images/dungeon-mini-ide_inv.png" /><img src="https://raw.githubusercontent.com/Compiler-CampusMinden/CPL-Vorlesung-Master/_w26/homework/images/dungeon-mini-ide.png" width="50%" /></picture></p>
 
 <details>
 
@@ -182,6 +182,6 @@ Neben passenden Konzepten soll auch eine geeignete Umsetzung/Implementierung ers
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c2e08a9 2026-10-15 project: improve outline<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9878822 2026-10-15 project: improve screenshots<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "*jede*" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.

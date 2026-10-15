@@ -86,7 +86,7 @@ Die Studienleistung ist eine unbenotete Leistung und setzt sich aus mehreren Kom
 
 Zu diesen Leistungen soll ein **Lerntagebuch** (s.u.) geführt und abgegeben werden (**jede Person individuell**).
 
-Das Exposé, die Slides (Edmonton-Talk, Kurzvortrag, Fachvortrag, Abschlusspräsentation) und das Lerntagebuch sind im **[ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006)** als PDF abzugeben. Bitte beachtet die jeweiligen Abgabefristen im ILIAS!
+Das Exposé, die Slides (Edmonton-Talk, Kurzvortrag, Fachvortrag, Abschlusspräsentation), das Projekt (via GitHub-Link im Lerntagebuch) und das Lerntagebuch sind im **[ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1738006)** als PDF abzugeben. Bitte beachtet die jeweiligen Abgabefristen im ILIAS!
 
 #### **Gesamtnote**: Mündliche Prüfung (einzeln, ca. 45 Minuten)
 
@@ -158,4 +158,4 @@ Wir freuen uns, auch in diesem Semester wieder drei gemeinsame Sitzungen für be
 
 Unless otherwise noted, [this work](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master) by [BC George](https://github.com/bcg7), [Carsten Gips](https://github.com/cagix) and [contributors](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/graphs/contributors) is licensed under [CC BY-SA 4.0](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/LICENSE.md). See the [credits](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/CREDITS.md) for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> ad9d368 2026-10-06 orga: remove link to readme<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 73f1a65 2026-10-15 orga: add projekt-repo-url to deliverables<br></sub></sup></p></blockquote>

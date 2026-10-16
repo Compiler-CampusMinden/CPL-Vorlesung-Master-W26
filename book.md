@@ -68,8 +68,8 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 |  | 22.01. | *Sprechstunde* | *Freies Arbeiten* |  |
 |  | 29.01. | **Vorträge DSL-Projekt** | **Vorträge DSL-Projekt** |  |
 
--   [Link zu den Talks](#id-a73470af5aac0f6102a1f24e33280ebad2acc29d)
--   [Link zum DSL-Projekt](#id-441c6299f10fc33707a0080c5fef11dc5a486466)
+-   [Zu den Talks ...](#id-a73470af5aac0f6102a1f24e33280ebad2acc29d)
+-   [Zum DSL-Projekt ...](#id-441c6299f10fc33707a0080c5fef11dc5a486466)
 
 #### Prüfungsform, Note und Credits
 
@@ -100,6 +100,7 @@ Sie können die Prüfung in der ersten oder in der zweiten Prüfungsphase ablege
 
 ##### Hinweise
 
+-   Die mündliche Prüfung und die Studienleistung sind zwei unabhängige Prüfungsleistungen und werden separat im CAT angemeldet. Die Studienleistung schaltet die Credits für das Modul frei, die mündliche Prüfung ergibt die Modulnote. Die Studienleistung ist **keine** Vorleistung für die mündliche Prüfung.
 -   Die Bearbeitung der Leistungen erfolgt im Team.
 -   Ein Team umfasst 3 Personen.
 -   Es gibt keine Aufgabenblätter. Stattdessen haben wir verschiedene Vorträge und das DSL-Projekt.
@@ -5532,14 +5533,14 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
--   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
--   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
--   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
 -   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
 -   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
 -   ["Language Prolog"](https://www.99-bottles-of-beer.net/language-prolog-965.html) by M@ on 99-bottles-of-beer.net
+-   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
+-   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
+-   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
+-   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> a807eb5 2026-10-16 project: fix typos<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 4f2e07a 2026-10-16 orga: improve readability<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "*jede*" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.

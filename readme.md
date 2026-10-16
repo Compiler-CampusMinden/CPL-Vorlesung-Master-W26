@@ -64,8 +64,8 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 |  | 22.01. | *Sprechstunde* | *Freies Arbeiten* |  |
 |  | 29.01. | **Vorträge DSL-Projekt** | **Vorträge DSL-Projekt** |  |
 
--   [Link zu den Talks](homework/talk.md)
--   [Link zum DSL-Projekt](homework/project.md)
+-   [Zu den Talks ...](homework/talk.md)
+-   [Zum DSL-Projekt ...](homework/project.md)
 
 ### Prüfungsform, Note und Credits
 
@@ -96,6 +96,7 @@ Sie können die Prüfung in der ersten oder in der zweiten Prüfungsphase ablege
 
 #### Hinweise
 
+-   Die mündliche Prüfung und die Studienleistung sind zwei unabhängige Prüfungsleistungen und werden separat im CAT angemeldet. Die Studienleistung schaltet die Credits für das Modul frei, die mündliche Prüfung ergibt die Modulnote. Die Studienleistung ist **keine** Vorleistung für die mündliche Prüfung.
 -   Die Bearbeitung der Leistungen erfolgt im Team.
 -   Ein Team umfasst 3 Personen.
 -   Es gibt keine Aufgabenblätter. Stattdessen haben wir verschiedene Vorträge und das DSL-Projekt.
@@ -158,4 +159,4 @@ Wir freuen uns, auch in diesem Semester wieder drei gemeinsame Sitzungen für be
 
 Unless otherwise noted, [this work](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master) by [BC George](https://github.com/bcg7), [Carsten Gips](https://github.com/cagix) and [contributors](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/graphs/contributors) is licensed under [CC BY-SA 4.0](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/LICENSE.md). See the [credits](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/CREDITS.md) for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 73f1a65 2026-10-15 orga: add projekt-repo-url to deliverables<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 4f2e07a 2026-10-16 orga: improve readability<br></sub></sup></p></blockquote>

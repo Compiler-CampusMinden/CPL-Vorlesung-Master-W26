@@ -5315,11 +5315,11 @@ Parsen und Interpretieren von MiniJava-Code im [Dungeon](https://github.com/Dung
 
 <details>
 
-Im [Dungeon-Projekt](https://github.com/Dungeon-CampusMinden/Dungeon) wurden verschiedene Escape-Room-Rätsel realisiert. In einigen dieser Rätseln sollen die Spieler:innen Aufgaben lösen, indem sie MiniJava-Code (ein eingeschränkter Sub-Dialekt von Java) in einem Textfenster eingeben. Dieser Code muss syntaktisch und semantisch korrekt sein und soll geeignet evaluiert werden. Man sieht dabei live die Auswertung und die Auswirkung auf das Spiel. Diese Rätsel richten sich an Programmier-Einsteiger:innen, und zur Lösung der Rätsel sollen beispielsweise Kontrollstrukturen, Schleifen, Funktionen und ggf. auch Klassen definiert und eingesetzt werden.
+Im [Dungeon-Projekt](https://github.com/Dungeon-CampusMinden/Dungeon) wurden verschiedene Escape-Room-Rätsel realisiert. In einigen dieser Rätseln sollen die Spieler:innen Aufgaben lösen, indem sie MiniJava-Code (ein eingeschränkter Sub-Dialekt von Java) in ein Textfenster eingeben. Dieser Code muss syntaktisch und semantisch korrekt sein und soll geeignet evaluiert werden. Man sieht dabei live die Auswertung und die Auswirkung auf das Spiel. Diese Rätsel richten sich an Programmier-Einsteiger:innen, und zur Lösung der Rätsel sollen beispielsweise Kontrollstrukturen, Schleifen, Funktionen und ggf. auch Klassen definiert und eingesetzt werden.
 
 In der vorliegenden Implementierung wurden zu jeder Aufgabe ein oder mehrere teilweise komplexe reguläre Ausdrücke hinterlegt, mit der der eingegebene Code dann verglichen wird. Das ist nicht nur sehr umständlich und schlecht zu warten und zu erweitern, sondern erlaubt auch keine anderen Eingaben als die vorgesehenen, selbst wenn damit die Aufgabe inhaltlich korrekt gelöst werden würde.
 
-Ziel dieses Projekt-Vorschlags ist zunächst die Erstellung eines inkrementellen Interpreters für die MiniJava-Eingaben. Der Interpreter muss dabei vorausgegangene Eingaben berücksichtigen (Session-Kontext oder Re-Initialisierung) und zu einer Einabe ein Ergebnis liefern oder verständliche Fehlermeldungen. In einer zweiten Phase soll eine "Welt-Interaktion" (Interaktion des Interpreters mit dem Dungeon) realisiert werden: Über "eingebaute" Funktionen ("native functions") sollen Spieler:innen direkt in ihrem MiniJava-Code Einfluss auf Elemente im Dungeon nehmen können. Es gibt beispielsweise einen kleinen Roboter, dessen Zustand im MiniJava-Code abgefragt und verändert werden kann. Dabei soll die Kopplung möglichst flexibel bleiben und die Spieler:innen sollen nicht der komplexen Dungeon-API ausgesetzt werden. Optional könnten statische Prüfungen (Schleifenbegrenzung, Laufzeitlimits, ...) mit eingebaut werden und/oder untersucht werden, wie sich die Gestaltung der Fehlermeldungen auf die Lösungszeit/Fehlerrate auswirkt.
+Ziel dieses Projekt-Vorschlags ist zunächst die Erstellung eines inkrementellen Interpreters für die MiniJava-Eingaben. Der Interpreter muss dabei vorausgegangene Eingaben berücksichtigen (Session-Kontext oder Re-Initialisierung) und zu einer Eingabe ein Ergebnis liefern oder verständliche Fehlermeldungen. In einer zweiten Phase soll eine "Welt-Interaktion" (Interaktion des Interpreters mit dem Dungeon) realisiert werden: Über "eingebaute" Funktionen ("native functions") sollen Spieler:innen direkt in ihrem MiniJava-Code Einfluss auf Elemente im Dungeon nehmen können. Es gibt beispielsweise einen kleinen Roboter, dessen Zustand im MiniJava-Code abgefragt und verändert werden kann. Dabei soll die Kopplung möglichst flexibel bleiben und die Spieler:innen sollen nicht der komplexen Dungeon-API ausgesetzt werden. Optional könnten statische Prüfungen (Schleifenbegrenzung, Laufzeitlimits, ...) mit eingebaut werden und/oder untersucht werden, wie sich die Gestaltung der Fehlermeldungen auf die Lösungszeit/Fehlerrate auswirkt.
 
 Dieses Projekt kann auch mit den nachfolgenden Projekt-Anregungen kombiniert werden.
 
@@ -5532,14 +5532,14 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
--   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
+-   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
 -   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
+-   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
 -   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
 -   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
--   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
+-   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
 -   ["Language Prolog"](https://www.99-bottles-of-beer.net/language-prolog-965.html) by M@ on 99-bottles-of-beer.net
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9878822 2026-10-15 project: improve screenshots<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a807eb5 2026-10-16 project: fix typos<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "*jede*" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.

@@ -29,7 +29,7 @@ Für z. B. alle Sprachen, in deren Wörtern Zeichen über eine Konstante hinaus 
 
 -   $a^ib^{2*i}$ für $0 \leq i \leq 3$ ist regulär
 
--   Wo finden sich die oben genannten VAriablen bei einem DFA wieder?
+-   Wo finden sich die oben genannten Variablen bei einem DFA wieder?
 
 -   Warum ist die erste Sprache oben nicht regulär, die zweite aber?
 
@@ -70,7 +70,7 @@ Ein PDA für $L=\lbrace ww^{R}\mid w\in \lbrace a,b\rbrace^{\ast}\rbrace$:
 **Def.** Ein PDA $P = (Q, \Sigma, \Gamma, \delta, q_0, \perp, F)$ ist *deterministisch* $: \Leftrightarrow$
 
 -   $\delta(q, a, X)$ hat höchstens ein Element für jedes $q \in Q, a \in\Sigma$ oder $(a = \epsilon$ und $X \in \Gamma)$.
--   Wenn $\delta (q, a, x)$ nicht leer ist für ein $a \in \Sigma$, dann muss $\delta (q, \epsilon, x)$ leer sein.
+-   Wenn $\delta (q, a, X)$ nicht leer ist für ein $a \in \Sigma$, dann muss $\delta (q, \epsilon, X)$ leer sein.
 
 Deterministische PDAs werden auch *DPDAs* genannt.
 
@@ -173,4 +173,4 @@ Vorgehensweise im Compilerbau: Eine Grammatik für die gewünschte Sprache defin
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 86736ef 2025-08-19 lecture: rework outcomes (02/CFG)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9c29d9d 2026-10-24 lecture: remove typos (cfg)<br></sub></sup></p></blockquote>

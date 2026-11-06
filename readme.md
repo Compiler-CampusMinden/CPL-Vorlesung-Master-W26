@@ -50,9 +50,9 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 | Oktober | 16.10. | Orga \|\| [Überblick](lecture/00-intro/overview.md) \| [Sprachen](lecture/00-intro/languages.md) \| [Anwendungen](lecture/00-intro/applications.md) | \- |  |
 |  | 23.10. | [Reguläre Sprachen](lecture/01-lexing/regular.md) | [CFG](lecture/02-parsing/cfg.md) |  |
 |  | 30.10. | [LL-Parser (Theorie)](lecture/02-parsing/ll-parser.md) | [Lexer (Implementierung)](lecture/01-lexing/recursive.md) \| [LL-Parser (Implementierung)](lecture/02-parsing/ll-parser-impl.md) |  |
-| November | 06.11. | [LR-Parser](lecture/02-parsing/lr-parser.md) | **Vortrag**: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, ...) | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
-|  | 13.11. | Semantische Analyse: [Intro](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) \| [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | **Vortrag**: LALR, PEG, Pratt, Combinators |  |
-|  | 20.11. | **Vortrag**: Type Checking, Hindley-Milner | **Pitch DSL-Projekt** |  |
+| November | 06.11. | [LR-Parser](lecture/02-parsing/lr-parser.md) | \- | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
+|  | 13.11. | Semantische Analyse: [Intro](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) \| [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | \- |  |
+|  | 20.11. | **Vortrag**: LALR, PEG, Pratt, Combinators | **Pitch DSL-Projekt** |  |
 |  | 27.11. | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) |  |
 | Dezember | 04.12. | [Interpreter 1](lecture/06-interpretation/astdriven-part1.md) \| [Interpreter 2](lecture/06-interpretation/astdriven-part2.md) | \- | **Mo, 30.11., 17:00 - 18:00 Uhr (online): Minden Presentations**: **Vorstellung "DSL-Projekt"** |
 |  | 11.12. | **Vortrag**: VM & Bytecode | **Kurzvortrag**: LP (Gabbrielli & Martini, Kap. 12) | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
@@ -60,7 +60,7 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 |  | *25.12.* | ***Weihnachtspause*** | \- |  |
 |  | *01.01.* | ***Weihnachtspause*** | \- |  |
 | Januar | 08.01. | **Vortrag**: Garbage Collection | **Vortrag**: JIT |  |
-|  | 15.01. | **Kurzvortrag**: Borrow Checking und Lifetimes (Rust) | **Kurzvortrag**: Dependent Type Systems (Idris) |  |
+|  | 15.01. | *Sprechstunde* | *Freies Arbeiten* |  |
 |  | 22.01. | *Sprechstunde* | *Freies Arbeiten* |  |
 |  | 29.01. | **Vorträge DSL-Projekt** | **Vorträge DSL-Projekt** |  |
 
@@ -159,4 +159,4 @@ Wir freuen uns, auch in diesem Semester wieder drei gemeinsame Sitzungen für be
 
 Unless otherwise noted, [this work](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master) by [BC George](https://github.com/bcg7), [Carsten Gips](https://github.com/cagix) and [contributors](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/graphs/contributors) is licensed under [CC BY-SA 4.0](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/LICENSE.md). See the [credits](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/CREDITS.md) for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 4f2e07a 2026-10-16 orga: improve readability<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 33b0535 2026-11-06 orga: update talks (fahrplan)<br></sub></sup></p></blockquote>

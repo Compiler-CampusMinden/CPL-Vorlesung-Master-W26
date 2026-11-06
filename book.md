@@ -54,9 +54,9 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 | Oktober | 16.10. | Orga \|\| [Überblick](#id-1df70a478502c95d7f7d1fa78f328a16640b3907) \| [Sprachen](#id-55cceb8d95eb4d3a67a6a18eb0e778b5695106a3) \| [Anwendungen](#id-315c4a6ad46ecd3cdd06bff39540497383b62904) | \- |  |
 |  | 23.10. | [Reguläre Sprachen](#id-fedfa58fd303fd06c064c79ac0a840c098df4d4f) | [CFG](#id-ed1ca9f1d126c913f7ce93106335deafa8e5a251) |  |
 |  | 30.10. | [LL-Parser (Theorie)](#id-07a415053a63f15160a328d38fe730bbd2c78148) | [Lexer (Implementierung)](#id-e459a0cea34b59c5b39e4a2e10ea30c515eba6b0) \| [LL-Parser (Implementierung)](#id-8f9ad51b1fa5549b458757512a9b2c5b7e30f08e) |  |
-| November | 06.11. | [LR-Parser](#id-cbdc409a00759785c1751b366323dc17dddf7a1a) | **Vortrag**: Parsergeneratoren (ANTLR, Treesitter, Flex&Bison, ...) | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
-|  | 13.11. | Semantische Analyse: [Intro](#id-b03cfb7bbd7121b294faa1cf2cb22d2a4851d02c) \| [Scopes](#id-322952562f00e1604c311da17b6a5207045e2ab1) \| [Funktionen](#id-33adf70dd90f23c46f778c96105777a5280a334c) \| [Klassen](#id-c6b409593a5212956e56ab3ed20b74aa86f4c204) | **Vortrag**: LALR, PEG, Pratt, Combinators |  |
-|  | 20.11. | **Vortrag**: Type Checking, Hindley-Milner | **Pitch DSL-Projekt** |  |
+| November | 06.11. | [LR-Parser](#id-cbdc409a00759785c1751b366323dc17dddf7a1a) | \- | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
+|  | 13.11. | Semantische Analyse: [Intro](#id-b03cfb7bbd7121b294faa1cf2cb22d2a4851d02c) \| [Scopes](#id-322952562f00e1604c311da17b6a5207045e2ab1) \| [Funktionen](#id-33adf70dd90f23c46f778c96105777a5280a334c) \| [Klassen](#id-c6b409593a5212956e56ab3ed20b74aa86f4c204) | \- |  |
+|  | 20.11. | **Vortrag**: LALR, PEG, Pratt, Combinators | **Pitch DSL-Projekt** |  |
 |  | 27.11. | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) |  |
 | Dezember | 04.12. | [Interpreter 1](#id-1ef3437e88d6d165c0cf233b6df46f1189d6d4b6) \| [Interpreter 2](#id-153937d8c8cfae4b7b9338d8dee2ea9c18a24ebf) | \- | **Mo, 30.11., 17:00 - 18:00 Uhr (online): Minden Presentations**: **Vorstellung "DSL-Projekt"** |
 |  | 11.12. | **Vortrag**: VM & Bytecode | **Kurzvortrag**: LP (Gabbrielli & Martini, Kap. 12) | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
@@ -64,7 +64,7 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 |  | *25.12.* | ***Weihnachtspause*** | \- |  |
 |  | *01.01.* | ***Weihnachtspause*** | \- |  |
 | Januar | 08.01. | **Vortrag**: Garbage Collection | **Vortrag**: JIT |  |
-|  | 15.01. | **Kurzvortrag**: Borrow Checking und Lifetimes (Rust) | **Kurzvortrag**: Dependent Type Systems (Idris) |  |
+|  | 15.01. | *Sprechstunde* | *Freies Arbeiten* |  |
 |  | 22.01. | *Sprechstunde* | *Freies Arbeiten* |  |
 |  | 29.01. | **Vorträge DSL-Projekt** | **Vorträge DSL-Projekt** |  |
 
@@ -5533,14 +5533,14 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
+-   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
+-   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
+-   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
 -   ["Language Prolog"](https://www.99-bottles-of-beer.net/language-prolog-965.html) by M@ on 99-bottles-of-beer.net
 -   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
--   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
--   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
 -   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
--   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
+-   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9c29d9d 2026-10-24 lecture: remove typos (cfg)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 33b0535 2026-11-06 orga: update talks (fahrplan)<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "*jede*" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.

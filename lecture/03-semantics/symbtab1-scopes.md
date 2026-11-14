@@ -104,7 +104,7 @@ Quelle: Nested Scopes: Eigene Modellierung nach einer Idee in ([Parr 2010](#ref-
 ``` python
 class Scope:
     Scope enclosingScope    # None if global (outermost) scope
-    Symbol<String, Symbol> symbols
+    Map<String, Symbol> symbols
 
     def resolve(name):
         # do we know "name" here?
@@ -265,4 +265,4 @@ Möglicherweise sind die Symboltabellen nach der Identifizierungsphase der Eleme
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6d518d5 2026-10-05 symboltabellen scopes: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 05a9706 2026-11-14 lecture: fix typo (scopes)<br></sub></sup></p></blockquote>

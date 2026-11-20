@@ -53,10 +53,10 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 | November | 06.11. | [LR-Parser](lecture/02-parsing/lr-parser.md) | \- | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
 |  | 13.11. | Semantische Analyse: [Intro](lecture/03-semantics/symbtab0-intro.md) \| [Scopes](lecture/03-semantics/symbtab1-scopes.md) \| [Funktionen](lecture/03-semantics/symbtab2-functions.md) \| [Klassen](lecture/03-semantics/symbtab3-classes.md) | \- |  |
 |  | 20.11. | **Vortrag**: LALR, PEG, Pratt, Combinators | **Pitch DSL-Projekt** |  |
-|  | 27.11. | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) |  |
-| Dezember | 04.12. | [Interpreter 1](lecture/06-interpretation/astdriven-part1.md) \| [Interpreter 2](lecture/06-interpretation/astdriven-part2.md) | \- | **Mo, 30.11., 17:00 - 18:00 Uhr (online): Minden Presentations**: **Vorstellung "DSL-Projekt"** |
-|  | 11.12. | **Vortrag**: VM & Bytecode | **Kurzvortrag**: LP (Gabbrielli & Martini, Kap. 12) | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
-|  | 18.12. | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | **Kurzvortrag**: CP (Gabbrielli & Martini, Kap. 13) |  |
+|  | 27.11. | LALR | [Interpreter 1](lecture/06-interpretation/astdriven-part1.md) \| [Interpreter 2](lecture/06-interpretation/astdriven-part2.md) |  |
+| Dezember | 04.12. | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) | **Mo, 30.11., 17:00 - 18:00 Uhr (online): Minden Presentations**: **Vorstellung "DSL-Projekt"** |
+|  | 11.12. | Logische Programmierung | \- | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
+|  | 18.12. | [Optimierung und Datenfluss- und Kontrollflussanalyse](lecture/05-optimization/optimization.md) | \- |  |
 |  | *25.12.* | ***Weihnachtspause*** | \- |  |
 |  | *01.01.* | ***Weihnachtspause*** | \- |  |
 | Januar | 08.01. | **Vortrag**: Garbage Collection | **Vortrag**: JIT |  |
@@ -159,4 +159,4 @@ Wir freuen uns, auch in diesem Semester wieder drei gemeinsame Sitzungen für be
 
 Unless otherwise noted, [this work](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master) by [BC George](https://github.com/bcg7), [Carsten Gips](https://github.com/cagix) and [contributors](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/graphs/contributors) is licensed under [CC BY-SA 4.0](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/LICENSE.md). See the [credits](https://github.com/Compiler-CampusMinden/CPL-Vorlesung-Master/blob/master/CREDITS.md) for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 33b0535 2026-11-06 orga: update talks (fahrplan)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 993247f 2026-11-20 orga: update schedule<br></sub></sup></p></blockquote>

@@ -57,10 +57,10 @@ Durchführung des seminaristischen Unterrichts als *Flipped Classroom* (Carsten)
 | November | 06.11. | [LR-Parser](#id-cbdc409a00759785c1751b366323dc17dddf7a1a) | \- | **Di, 03.11., 17:00 - 18:00 Uhr (online): ANTLR + Live-Coding** |
 |  | 13.11. | Semantische Analyse: [Intro](#id-b03cfb7bbd7121b294faa1cf2cb22d2a4851d02c) \| [Scopes](#id-322952562f00e1604c311da17b6a5207045e2ab1) \| [Funktionen](#id-33adf70dd90f23c46f778c96105777a5280a334c) \| [Klassen](#id-c6b409593a5212956e56ab3ed20b74aa86f4c204) | \- |  |
 |  | 20.11. | **Vortrag**: LALR, PEG, Pratt, Combinators | **Pitch DSL-Projekt** |  |
-|  | 27.11. | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) |  |
-| Dezember | 04.12. | [Interpreter 1](#id-1ef3437e88d6d165c0cf233b6df46f1189d6d4b6) \| [Interpreter 2](#id-153937d8c8cfae4b7b9338d8dee2ea9c18a24ebf) | \- | **Mo, 30.11., 17:00 - 18:00 Uhr (online): Minden Presentations**: **Vorstellung "DSL-Projekt"** |
-|  | 11.12. | **Vortrag**: VM & Bytecode | **Kurzvortrag**: LP (Gabbrielli & Martini, Kap. 12) | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
-|  | 18.12. | [Optimierung und Datenfluss- und Kontrollflussanalyse](#id-8517cc4b94e74e2d9db32a91d3b1c7960002a981) | **Kurzvortrag**: CP (Gabbrielli & Martini, Kap. 13) |  |
+|  | 27.11. | LALR | [Interpreter 1](#id-1ef3437e88d6d165c0cf233b6df46f1189d6d4b6) \| [Interpreter 2](#id-153937d8c8cfae4b7b9338d8dee2ea9c18a24ebf) |  |
+| Dezember | 04.12. | **Kurzvortrag**: OOP (Gabbrielli & Martini, Kap. 10) | **Kurzvortrag**: FP (Gabbrielli & Martini, Kap. 11) | **Mo, 30.11., 17:00 - 18:00 Uhr (online): Minden Presentations**: **Vorstellung "DSL-Projekt"** |
+|  | 11.12. | Logische Programmierung | \- | **Mo, 07.12., 17:00 - 18:00 Uhr (online): Edmonton Presentations** |
+|  | 18.12. | [Optimierung und Datenfluss- und Kontrollflussanalyse](#id-8517cc4b94e74e2d9db32a91d3b1c7960002a981) | \- |  |
 |  | *25.12.* | ***Weihnachtspause*** | \- |  |
 |  | *01.01.* | ***Weihnachtspause*** | \- |  |
 | Januar | 08.01. | **Vortrag**: Garbage Collection | **Vortrag**: JIT |  |
@@ -5533,14 +5533,14 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
--   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
+-   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
 -   Screenshot of ["Language Brainfuck"](https://99-bottles-of-beer.net/language-brainfuck-2542.html) by Michal Wojciech Tarnowski on 99-bottles-of-beer.net
--   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
 -   ["Language Prolog"](https://www.99-bottles-of-beer.net/language-prolog-965.html) by M@ on 99-bottles-of-beer.net
 -   Abzählreim "99 Bottles of Beer" nach ["Lyrics of the song 99 Bottles of Beer"](https://www.99-bottles-of-beer.net/lyrics.html) on 99-bottles-of-beer.net
--   [A Map of the Territory (mountain.png)](https://github.com/munificent/craftinginterpreters/blob/master/site/image/a-map-of-the-territory/mountain.png) by [Bob Nystrom](https://github.com/munificent) on Github.com ([MIT](https://github.com/munificent/craftinginterpreters/blob/master/LICENSE))
+-   ["Language Haskell"](https://www.99-bottles-of-beer.net/language-haskell-1070.html) by Iavor on 99-bottles-of-beer.net
+-   ["Language Java"](https://www.99-bottles-of-beer.net/language-java-4.html) by Sean Russell on 99-bottles-of-beer.net
+-   ["Language C"](https://www.99-bottles-of-beer.net/language-c-116.html) by Bill Wein on 99-bottles-of-beer.net
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 05a9706 2026-11-14 lecture: fix typo (scopes)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 993247f 2026-11-20 orga: update schedule<br></sub></sup></p></blockquote>
 
 [^1]: ... for a given value of "*jede*" :) ... Die Idee muss zum Thema passen und vom Anspruch und Umfang her einem 10 ECTS Master-Modul angemessen sein.
